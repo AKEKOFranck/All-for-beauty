@@ -1,0 +1,154 @@
+.main{
+  width: 100%;
+  height: 100%;
+}
+
+
+.title{
+   font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #eaf3ff;
+  letter-spacing: 0.3px;
+  align-items: end;
+  display: flex;
+  justify-content: center;
+  height: 28vh;
+}
+
+
+.content{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  width: 100%;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.box{
+  width: 15%;
+  min-height: 220px;
+  padding: 1.5rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+
+  background: linear-gradient(
+    145deg,
+    #0f0f0f,
+    #1c1c1c
+  );
+
+  border: 1px solid rgba(212,175,55,.25);
+  border-radius: 20px;
+
+  box-shadow:
+    0 15px 35px rgba(0,0,0,.4),
+    0 0 25px rgba(212,175,55,.08);
+
+  transition: all .4s ease;
+}
+
+.box:hover{
+  transform: translateY(-10px);
+  border-color: #d4af37;
+
+  box-shadow:
+    0 20px 45px rgba(0,0,0,.5),
+    0 0 35px rgba(212,175,55,.2);
+}
+
+.img{
+  width: 90%;
+  height: 200px;
+  object-fit: contain;
+}
+
+.box_title{
+  color: #d4af37;
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+
+
+
+
+/* ===================== MOBILE ===================== */
+
+@media screen and (max-width:769px) {
+
+  .main{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    gap: 20px;
+  }
+  .title{
+    text-align: center;
+    font-size: 1.4rem;
+  }
+
+  .content{
+    width: 100%;
+    flex-wrap: wrap;
+  }
+
+  .box{
+    width: 60%;
+  }
+
+  .box_title{
+    font-size: 1rem;
+  }
+
+}
+
+
+/* ===================== TABLET ===================== */
+
+@media screen and (min-width:800px) and (max-width:1200px) {
+
+ .title{
+    font-size: 1.8rem;
+    height: 20vh;
+    text-align: center;
+    padding: 0 20px;
+  }
+
+  .content{
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .box{
+    width: 30%;
+    min-height: 200px;
+  }
+
+  .img{
+    height: 180px;
+  }
+
+  .box_title{
+    font-size: 1rem;
+    text-align: center;
+  }
+
+}
+
+
+/* ===================== PETIT MOBILE ===================== */
+
+@media screen and (max-width:480px) {
+
+}
+

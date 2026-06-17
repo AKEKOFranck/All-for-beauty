@@ -1,0 +1,261 @@
+
+.main {
+  min-height: 100vh;
+  background-color: var(--bg);
+  color: var(--white);
+  font-family: var(--font-body);
+}
+
+/* ─── Hero ───────────────────────────────────────────────────── */
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 80px 24px 56px;
+  text-align: center;
+  border-bottom: 1px solid var(--border);
+}
+
+.heroEyebrow {
+  font-family: var(--font-body);
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.35em;
+  text-transform: uppercase;
+  color: var(--gold);
+  margin-bottom: 20px;
+  display: block;
+}
+
+.heroTitle {
+  font-family: var(--font-display);
+  font-size: clamp(2.4rem, 6vw, 5rem);
+  font-weight: 300;
+  letter-spacing: 0.04em;
+  color: var(--white);
+  margin: 0 0 32px;
+  line-height: 1.1;
+  
+ 
+    font-size: 2.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    height: 20vh;
+    flex-direction: column;
+  
+}
+
+.heroDivider {
+  width: 48px;
+  height: 1px;
+  background: var(--gold);
+}
+
+/* ─── Grid ───────────────────────────────────────────────────── */
+.content {
+  padding: 64px 32px 96px;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 2px;
+}
+
+/* ─── Card ───────────────────────────────────────────────────── */
+.card {
+  background-color: var(--card-bg);
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+  transition: background-color 0.35s ease;
+  border: 1px solid var(--border);
+}
+
+.card:hover {
+  background-color: var(--card-hover);
+}
+
+/* ─── Image ──────────────────────────────────────────────────── */
+.imageWrapper {
+  position: relative;
+  height: 350px;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
+  background-color: #0d0d0d;
+}
+
+.image {
+  object-fit: cover;
+  transition: transform 0.6s ease;
+}
+
+.card:hover .image {
+  transform: scale(1.04);
+}
+
+.imagePlaceholder {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #111 0%, #1c1c1c 100%);
+}
+
+.placeholderIcon {
+  font-size: 2rem;
+  color: var(--gold);
+  opacity: 0.4;
+  user-select: none;
+}
+
+/* ─── Card Body ──────────────────────────────────────────────── */
+.cardBody {
+  padding: 24px 24px 28px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  position: relative;
+}
+
+.cardId {
+  font-family: var(--font-body);
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: var(--gold);
+  margin: 0 0 10px;
+}
+
+.cardName {
+  font-family: var(--font-display);
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.35;
+  color: var(--white);
+  margin: 0 0 12px;
+  letter-spacing: 0.01em;
+}
+
+.cardDesc {
+  font-size: 0.8rem;
+  line-height: 1.65;
+  color: var(--grey);
+  margin: 0 0 24px;
+  flex: 1;
+}
+
+/* ─── Footer ─────────────────────────────────────────────────── */
+.cardFooter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.cardPrice {
+  font-family: var(--font-display);
+  font-size: 1.05rem;
+  font-weight: 500;
+  color: var(--grey-light);
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+}
+
+.cardBtn {
+  background: transparent;
+  border: 1px solid var(--gold);
+  color: var(--gold);
+  font-family: var(--font-body);
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  padding: 9px 18px;
+  cursor: pointer;
+  transition: background-color 0.25s ease, color 0.25s ease;
+  white-space: nowrap;
+}
+
+.cardBtn:hover {
+  background-color: var(--gold);
+  color: #0a0a0a;
+}
+
+/* ─── Signature gold line ─────────────────────────────────────── */
+/* Thin gold line that expands from left to right on hover */
+.goldLine {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 1px;
+  width: 0;
+  background: var(--gold);
+  transition: width 0.5s ease;
+}
+
+.card:hover .goldLine {
+  width: 100%;
+}
+
+
+
+/* ─── Responsive ─────────────────────────────────────────────── */
+@media (max-width: 768px) {
+  .hero {
+    padding: 60px 20px 40px;
+  }
+
+  .content {
+    padding: 40px 16px 64px;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+    gap: 2px;
+  }
+
+  .heroTitle {
+    font-size: 2.2rem;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    height: 20vh;
+  }
+}
+
+@media screen and (min-width:800px) and (max-width:1200px) {
+  
+  .heroTitle {
+    font-size: 2.2rem;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    height: 10vh;
+  }
+}
+
+@media (max-width: 480px) {
+  .cardName {
+    font-size: 1.05rem;
+  }
+
+  .cardFooter {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 14px;
+  }
+
+  .cardBtn {
+    width: 100%;
+    text-align: center;
+  }
+}

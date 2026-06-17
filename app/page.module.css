@@ -1,0 +1,411 @@
+.main{
+  width: 100%;
+  height: 100%;
+  display:flex;
+  flex-direction: column;
+}
+
+.section1, .section2, .section3, .section4{
+  width: 100%;
+  height: 100vh;
+  display:flex;
+}
+
+.section1{
+  background: 
+    linear-gradient(135deg, rgba(0,0,0,0.6), rgba(139, 94, 60, 0.4)),
+    url('/mainfond.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+  padding: 0 20px;
+}
+
+
+
+
+.second2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-direction: row;
+}
+
+
+.second_content{
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  padding: 20px;
+}
+.second_title{
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  width: 100%;
+  text-align: center;
+}
+
+.list{
+  list-style: none;
+  align-self: center;
+  display: flex;
+  max-width: 50%;
+  gap: 10px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.list li:hover{
+  color: #ff69b4;
+  cursor: pointer;
+}
+
+.image{
+  width:60%;
+  height: 500px;
+  object-fit: cover;
+  border: 2px solid #ccc;
+}
+
+
+
+
+
+.section3{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+  padding: 0 20px;
+}
+
+
+.third_content{
+  display: flex;
+  width: auto;
+  gap: 20px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+
+.third_card {
+  width: 320px;
+  padding: 22px;
+  border-radius: 18px;
+
+  background: rgba(15, 35, 80, 0.35);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+
+  border: 1px solid rgba(120, 180, 255, 0.18);
+
+  box-shadow:
+    0 10px 30px rgba(0, 0, 0, 0.4),
+    0 0 20px rgba(0, 140, 255, 0.12);
+
+  color: #fff;
+
+  transition: all 0.35s ease;
+  cursor: pointer;
+}
+
+/* Hover premium */
+.third_card:hover {
+  transform: translateY(-10px);
+  border: 1px solid rgba(120, 200, 255, 0.4);
+
+  box-shadow:
+    0 18px 45px rgba(0, 0, 0, 0.5),
+    0 0 35px rgba(0, 160, 255, 0.25);
+}
+
+/* Icon circle */
+.card_icon {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+
+  margin-bottom: 15px;
+
+  background: linear-gradient(135deg, #1e90ff, #00c2ff);
+
+  box-shadow: 0 0 20px rgba(0, 180, 255, 0.4);
+}
+
+/* Title */
+.card_title {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 10px;
+
+  color: #eaf3ff;
+  letter-spacing: 0.3px;
+}
+
+/* Description */
+.card_description {
+  font-size: 14px;
+  line-height: 1.6;
+
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.card_icon {
+ font-size: 2rem;
+ display: flex;
+ justify-content: center;
+  color: white;
+  align-items: center;
+}
+
+
+
+
+
+.section4{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+  flex-direction: row;
+  height: auto;
+  background-color: pink;
+}
+
+.third_content{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.fourth_image{
+  width: 20%;
+  transition: all 0.3s ease-in-out;
+}
+.fourth_image:hover{
+  transform: translateY(-15px);
+}
+.fourth_title{
+  font-size: 1.2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 1rem 2.5rem;
+  border: 1px solid #d4af37;
+  border-radius: 50px;
+
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+
+  color: #d4af37;
+  text-decoration: none;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+
+  transition: all 0.4s ease;
+}
+
+.link:hover {
+  background: #d4af37;
+  color: #000;
+  transform: translateY(-3px);
+  box-shadow: 0 12px 35px rgba(212, 175, 55, 0.4);
+}
+
+
+/* ===================== MOBILE ===================== */
+
+@media screen and (max-width:769px) {
+
+  .section1,
+  .section2,
+  .section3{
+    height: auto;
+    min-height: 100vh;
+    padding: 60px 20px;
+  }
+
+  .second2{
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .second_content{
+    width: 100%;
+    padding: 10px;
+  }
+
+  .second_title{
+    font-size: 2rem;
+  }
+
+  .list{
+    max-width: 100%;
+  }
+
+  .image{
+    width: 100%;
+    height: 350px;
+  }
+
+  .third_content{
+    flex-direction: column;
+    width: 100%;
+    gap: 25px;
+  }
+
+  .third_card{
+    width: 100%;
+    max-width: 400px;
+  }
+
+  .section4{
+    flex-direction: column;
+    padding: 40px 20px;
+    gap: 20px;
+  }
+
+  .fourth_image{
+    width: 60%;
+  }
+
+  .fourth_title{
+    font-size: 1rem;
+  }
+
+}
+
+
+/* ===================== TABLET ===================== */
+
+@media screen and (min-width:800px) and (max-width:1200px) {
+
+  .section1,
+  .section2,
+  .section3{
+    height: auto;
+    min-height: 100vh;
+    padding: 60px 30px;
+  }
+
+  .second2{
+    flex-direction: column;
+  }
+
+  .second_content{
+    width: 90%;
+  }
+
+  .list{
+    max-width: 90%;
+  }
+
+  .image{
+    width: 85%;
+    height: 450px;
+  }
+
+  .third_content{
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .third_card{
+    width: 45%;
+    min-width: 300px;
+  }
+
+  .section4{
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 50px 20px;
+  }
+
+  .fourth_image{
+    width: 30%;
+  }
+
+  
+  .fourth_title{
+    font-size: 1.2rem;
+  }
+
+}
+
+
+/* ===================== PETIT MOBILE ===================== */
+
+@media screen and (max-width:480px) {
+
+  .section1{
+    padding: 40px 15px;
+  }
+
+  .second_title{
+    font-size: 1.6rem;
+  }
+
+  .image{
+    width: 100%;
+    height: 250px;
+  }
+
+  .list{
+    gap: 8px;
+    font-size: 0.9rem;
+  }
+
+  .third_card{
+    width: 100%;
+    padding: 18px;
+  }
+
+  .card_title{
+    font-size: 16px;
+  }
+
+  .card_description{
+    font-size: 13px;
+  }
+
+  .card_icon{
+    font-size: 1.5rem;
+    width: 45px;
+    height: 45px;
+  }
+
+  .fourth_image{
+    width: 80%;
+  }
+
+  .fourth_title{
+    font-size: 0.9rem;
+  }
+
+}
+
