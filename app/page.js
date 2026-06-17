@@ -4,7 +4,7 @@ import styles from "./page.module.css";
 import { GiCampCookingPot } from "react-icons/gi";
 import { FaTruckPlane } from "react-icons/fa6";
 import { RiCustomerService2Fill } from "react-icons/ri";
-import { MdKeyboardDoubleArrowDown } from "react-icons/md";
+
 
 export default function Home() {
   const dataFullProducts = [
@@ -55,8 +55,10 @@ Une sélection de produits doux et efficaces pour une peau saine, lumineuse et r
  faites défiler pour découvrir toute notre gamme.
 </p>
 
-<div className={styles.card_icon}> <MdKeyboardDoubleArrowDown />
- </div>
+<Link href="/products" className={styles.link}>
+  Découvrir la collection
+</Link>
+
        </section>
 
        <section className={styles.section2}>
@@ -133,15 +135,7 @@ Une sélection de produits doux et efficaces pour une peau saine, lumineuse et r
         </div>
        </section>
 
-       <section className={styles.section1}>
-         <h1 className={styles.title}>
-  Révélez votre beauté naturelle avec nos soins d'exception
-</h1>
-
-<Link href="/products" className={styles.link}>
-  Découvrir la collection
-</Link>
-       </section>
+      
       </main>
   );
 }

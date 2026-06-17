@@ -6,9 +6,9 @@ export default function Products() {
   const categories = [
     {
       id: 1,
-      img: "/fondproduct1.png",
-      title: "Crèmes & Laits Corporels",
-      slug: "cremes",
+      img: "/fondproduct8.png",
+      title: "Vitamines & Compléments",
+      slug: "vitamines",
     },
     {
       id: 2,
@@ -48,9 +48,9 @@ export default function Products() {
     },
     {
       id: 8,
-      img: "/fondproduct8.png",
-      title: "Vitamines & Compléments",
-      slug: "vitamines",
+     img: "/fondproduct1.png",
+      title: "Crèmes & Laits Corporels",
+      slug: "cremes",
     },
   ];
 

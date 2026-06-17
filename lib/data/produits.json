@@ -49,7 +49,7 @@
         "id": "creme7",
         "pic": "/creme/crem (7).png",
         "name": "EOS (Evolution of Smooth) — Strawberry Dream / Crème de Pistachio / Vanilla Cashmere",
-        "price": "20000",
+        "price": "18000",
         "desc": "Lotions corps gourmandes aux fragrances irrésistibles, offrant 24h d'hydratation intense aux peaux sèches."
       },
       {
@@ -63,7 +63,7 @@
         "id": "creme9",
         "pic": "/creme/crem (9).png",
         "name": "OOTD (Oxygen of the Day) Intensive Moisturizing Body Lotion (H+)",
-        "price": "20000",
+        "price": "18000",
         "desc": "Lotion hydratante intensive enrichie en oxygène actif, revitalise et illumine les peaux fatiguées."
       },
       {
@@ -105,21 +105,21 @@
         "id": "creme15",
         "pic": "/creme/crem (15).png",
         "name": "MEDIX 5.5 Vitamin C + Niacinamide Body Wash",
-        "price": "20000",
+        "price": "18000",
         "desc": "Gel douche éclat à la vitamine C et à la niacinamide, nettoie en douceur tout en unifiant le teint du corps."
       },
       {
         "id": "creme16",
         "pic": "/creme/crem (16).png",
         "name": "Palmer's Cocoa Butter Formula Lotion (Tahitian Vanilla & Firms/Tones)",
-        "price": "20000",
+        "price": "18000",
         "desc": "Lotion au beurre de cacao et vanille de Tahiti, hydrate, affine le galbe et laisse un parfum envoûtant."
       },
       {
         "id": "creme17",
         "pic": "/creme/crem (17).png",
         "name": "Old Spice Captain Sniffworthy Lotion (Scent of Bergamot)",
-        "price": "20000",
+        "price": "18000",
         "desc": "Lotion corps légère au bergamote, hydrate la peau des hommes en laissant une fragrance fraîche et masculine."
       },
       {
@@ -987,245 +987,245 @@
         "id": "vit1",
         "pic": "/vita/vit (1).png",
         "name": "One A Day — Women's Multi (Tablets) / VitaCraves Teen for Her (Gummies) / Women's Multi Gummy",
-        "price": "40000",
+        "price": "35000",
         "desc": "Multivitamines pour femmes en comprimés ou gummies, couvrent les besoins nutritionnels quotidiens pour une santé optimale."
       },
       {
         "id": "vit2",
         "pic": "/vita/vit (2).png",
         "name": "Kirkland Signature — Adult Multivitamin Gummies",
-        "price": "40000",
+        "price": "35000",
         "desc": "Multivitamines adultes en gummies Kirkland, formule complète et délicieuse pour combler les carences au quotidien."
       },
       {
         "id": "vit3",
         "pic": "/vita/vit (3).png",
         "name": "Nature Made — Vitamin C Gummies (250 mg)",
-        "price": "40000",
+        "price": "35000",
         "desc": "Gummies à la vitamine C 250mg Nature Made, renforcent le système immunitaire et protègent les cellules du stress oxydatif."
       },
       {
         "id": "vit4",
         "pic": "/vita/vit (4).png",
         "name": "One A Day — Men's 50+ Multi (Tablets)",
-        "price": "40000",
+        "price": "35000",
         "desc": "Multivitamines spécialement formulées pour les hommes de 50 ans et plus, soutiennent le cœur, les yeux et la prostate."
       },
       {
         "id": "vit5",
         "pic": "/vita/vit (5).png",
         "name": "MaryRuth's — 3-in-1 Daily Women's Health (Capsules) & Magnesium Calm Gummies",
-        "price": "40000",
+        "price": "35000",
         "desc": "Duo santé féminine MaryRuth's : capsules 3-en-1 et gummies au magnésium pour équilibrer le corps et l'esprit."
       },
       {
         "id": "vit6",
         "pic": "/vita/vit (6).png",
         "name": "Wellness Garden — Turmeric with Ginger (550 mg)",
-        "price": "50000",
+        "price": "45000",
         "desc": "Complément au curcuma et au gingembre, puissants anti-inflammatoires naturels pour soutenir articulations et digestion."
       },
       {
         "id": "vit7",
         "pic": "/vita/vit (7).png",
         "name": "Nature's Truth — Ultra Hair, Skin & Nails plus Biotin",
-        "price": "40000",
+        "price": "35000",
         "desc": "Complément beauté à la biotine, renforce les cheveux, améliore l'éclat de la peau et prévient la fragilité des ongles."
       },
       {
         "id": "vit8",
         "pic": "/vita/vit (8).png",
         "name": "Nature's Bounty — Fish Oil (1200 mg) & Magnesium (500 mg)",
-        "price": "40000",
+        "price": "35000",
         "desc": "Duo huile de poisson et magnésium, soutiennent le cœur, le cerveau, les muscles et réduisent la fatigue chronique."
       },
       {
         "id": "vit9",
         "pic": "/vita/vit (9).png",
         "name": "AbCuts CLA Belly Fat Formula",
-        "price": "40000",
+        "price": "35000",
         "desc": "Complément à l'acide linoléique conjugué (CLA), aide à réduire la graisse abdominale et à maintenir la masse musculaire."
       },
       {
         "id": "vit10",
         "pic": "/vita/vit (10).png",
         "name": "Wellness Garden — Turmeric with Ginger (550 mg)",
-        "price": "40000",
+        "price": "35000",
         "desc": "Formule curcuma-gingembre 550mg, soutient l'immunité et réduit l'inflammation pour un bien-être général au quotidien."
       },
       {
         "id": "vit11",
         "pic": "/vita/vit (11).png",
         "name": "Qunol Turmeric Curcumin Complex + Ginger (550 mg)",
-        "price": "50000",
+        "price": "45000",
         "desc": "Complexe curcumine ultra-absorbable et gingembre, formule avancée pour une action anti-inflammatoire maximale."
       },
       {
         "id": "vit12",
         "pic": "/vita/vit(12).png",
         "name": "Pepto Bismol (Bismuth Subsalicylate)",
-        "price": "20000",
+        "price": "18000",
         "desc": "Médicament antiacide et antidiarrhéique classique, soulage rapidement les troubles digestifs et les maux d'estomac."
       },
       {
         "id": "vit13",
         "pic": "/vita/vit(13).png",
         "name": "Kirkland Signature Adult Gummies Vitamin C (250 mg)",
-        "price": "40000",
+        "price": "35000",
         "desc": "Gummies vitamine C adultes Kirkland, goût fruité et pratiques pour renforcer les défenses immunitaires chaque jour."
       },
       {
         "id": "vit14",
         "pic": "/vita/vit(14).png",
         "name": "Berkley Jensen Vitamin C with Rose Hips (1000 mg)",
-        "price": "50000",
+        "price": "45000",
         "desc": "Vitamine C haute dose 1000mg avec cynorrhodon, puissant antioxydant pour booster l'immunité et la vitalité."
       },
       {
         "id": "vit15",
         "pic": "/vita/vit(15).png",
         "name": "Nature's Bounty Hair, Skin & Nails Gummies",
-        "price": "30000",
+        "price": "25000",
         "desc": "Gummies beauté Nature's Bounty aux vitamines et biotine, nourrissent les cheveux, la peau et les ongles de l'intérieur."
       },
       {
         "id": "vit16",
         "pic": "/vita/vit(16).png",
         "name": "Force Factor Kids Super Chews (Superfoods & Immunity)",
-        "price": "30000",
+        "price": "25000",
         "desc": "Compléments pour enfants aux superaliments, renforcent les défenses immunitaires et soutiennent la croissance saine."
       },
       {
         "id": "vit17",
         "pic": "/vita/vit(17).png",
         "name": "Force Factor Total Beets Blood Pressure Support",
-        "price": "40000",
+        "price": "35000",
         "desc": "Complément à la betterave, aide à réguler la tension artérielle et améliore la circulation sanguine naturellement."
       },
       {
         "id": "vit18",
         "pic": "/vita/vit(18).png",
         "name": "Force Factor Ultimate Magnesium Glycinate & Citrate (330 mg)",
-        "price": "40000",
+        "price": "35000",
         "desc": "Magnésium ultra-assimilable en double forme glycinate et citrate, favorise la détente musculaire et un sommeil réparateur."
       },
       {
         "id": "vit19",
         "pic": "/vita/vit(19).png",
         "name": "Force Factor Better Turmeric (Extra-Strength Curcumin)",
-        "price": "40000",
+        "price": "35000",
         "desc": "Curcumine extra-forte Force Factor à haute biodisponibilité, pour une action anti-inflammatoire et antioxydante renforcée."
       },
       {
         "id": "vit20",
         "pic": "/vita/vit(20).png",
         "name": "Goli Nutrition Apple Cider Vinegar+ & Extra Strength Sleep",
-        "price": "40000",
+        "price": "35000",
         "desc": "Duo Goli : gummies au vinaigre de cidre pour la digestion et la mélatonine renforcée pour un sommeil profond et naturel."
       },
       {
         "id": "vit21",
         "pic": "/vita/vit(21).png",
         "name": "Goli Nutrition — Women's Complete Multi Gummies & Dreamy Sleep Gummies",
-        "price": "40000",
+        "price": "35000",
         "desc": "Duo Goli pour femmes : multivitamines complètes et gummies sommeil rêveur pour équilibrer corps et esprit au quotidien."
       },
       {
         "id": "vit22",
         "pic": "/vita/vit(22).png",
         "name": "MaryRuth's — Liquid Nighttime Multimineral (Coconut Dream)",
-        "price": "40000",
+        "price": "35000",
         "desc": "Multiminéral liquide nocturne à la noix de coco, se prend avant le coucher pour une absorption maximale des minéraux."
       },
       {
         "id": "vit23",
         "pic": "/vita/vit(23).png",
         "name": "MaryRuth's — Vegan Liquid Iron / Liquid Morning Multivitamin / Liquid Morning Multivitamin + Hair Growth",
-        "price": "40000",
+        "price": "35000",
         "desc": "Gamme liquide MaryRuth's vegan : fer, multivitamines du matin et complexe croissance des cheveux pour une routine complète."
       },
       {
         "id": "vit24",
         "pic": "/vita/vit(24).png",
         "name": "NeoCell — Collagen Beauty Builder (Caplets) & Grassfed Collagen Peptides (Powder)",
-        "price": "45000",
+        "price": "40000",
         "desc": "Duo collagène NeoCell en gélules et poudre non aromatisée, soutient la beauté de la peau, des cheveux et des ongles."
       },
       {
         "id": "vit25",
         "pic": "/vita/vit(25).png",
         "name": "Qunol — Turmeric 1500mg (95% Curcuminoids)",
-        "price": "40000",
+        "price": "35000",
         "desc": "Curcuma haute dose Qunol avec 95% de curcuminoïdes actifs, formule leader pour soulager l'inflammation articulaire."
       },
       {
         "id": "vit26",
         "pic": "/vita/vit(26).png",
         "name": "Nature's Truth — Restore & Unwind Ashwagandha Gummies",
-        "price": "40000",
+        "price": "35000",
         "desc": "Gummies à l'ashwagandha, adaptogène naturel pour réduire le stress, restaurer l'énergie et améliorer la concentration."
       },
       {
         "id": "vit27",
         "pic": "/vita/vit(27).png",
         "name": "Vitafusion — Melatonin Max Strength 10mg (Strawberry Flavor)",
-        "price": "40000",
+        "price": "35000",
         "desc": "Gummies à la mélatonine 10mg à la fraise, aident à s'endormir rapidement et à bénéficier d'un sommeil de qualité."
       },
       {
         "id": "vit28",
         "pic": "/vita/vit(28).png",
         "name": "Irwin Naturals — Blood Sugar Balance Berberine Body + Fat Burner",
-        "price": "40000",
+        "price": "35000",
         "desc": "Complément à la berbérine, aide à réguler la glycémie et soutient la gestion du poids pour un métabolisme équilibré."
       },
       {
         "id": "vit29",
         "pic": "/vita/vit(29).png",
         "name": "21st Century — Niacinamide 500 mg (Prolonged Release, 110 Tablets)",
-        "price": "40000",
+        "price": "35000",
         "desc": "Niacinamide 500mg à libération prolongée, améliore l'éclat de la peau, réduit l'inflammation et soutient la santé nerveuse."
       },
       {
         "id": "vit30",
         "pic": "/vita/vit(30).png",
         "name": "Vital Proteins — Collagen Peptides (Unflavored, 10 oz / 284g)",
-        "price": "45000",
+        "price": "40000",
         "desc": "Peptides de collagène purs Vital Proteins, poudre non aromatisée à dissoudre dans les boissons pour une beauté de l'intérieur."
       },
       {
         "id": "vit31",
         "pic": "/vita/vit(31).png",
         "name": "Wonder Belly — Antacid Maximum Strength (Watermelon Mint & Fruity Cereal, 60 Tablets)",
-        "price": "45000",
+        "price": "40000",
         "desc": "Antiacide maximum strength en comprimés à croquer, soulage rapidement les brûlures d'estomac avec des saveurs gourmandes."
       },
       {
         "id": "vit32",
         "pic": "/vita/vit(32).png",
         "name": "Vicks — ZzzQuil Nighttime Sleep-Aid (Warming Berry, 12 FL OZ)",
-        "price": "30000",
+        "price": "25000",
         "desc": "Aide au sommeil Vicks ZzzQuil à la baie chaude, aide à s'endormir rapidement pour une nuit réparatrice sans somnolence matinale."
       },
       {
         "id": "vit33",
         "pic": "/vita/vit(33).png",
         "name": "Vicks — DayQuil Kids + NyQuil Kids Honey Combo Pack",
-        "price": "20000",
+        "price": "18000",
         "desc": "Combo jour et nuit Vicks Kids au miel, soulage les symptômes de rhume et de toux des enfants en toute sécurité."
       },
       {
         "id": "vit34",
         "pic": "/vita/vit(34).png",
         "name": "Mucinex — Fast-Max Maximum Strength Day & Night Pack",
-        "price": "15000",
+        "price": "13000",
         "desc": "Pack Mucinex jour/nuit force maximale, combat la congestion sévère, la fièvre et la toux pour une récupération rapide."
       },
       {
         "id": "vit35",
         "pic": "/vita/vit(35).png",
         "name": "Vicks VapoCOOL Severe (Winterfrost) + Halls Cherry Flavor Drops Pack",
-        "price": "30000",
+        "price": "25000",
         "desc": "Duo de pastilles Vicks et Halls à la menthe glacée et à la cerise, soulagent rapidement la gorge irritée et la toux."
       }
     ]
