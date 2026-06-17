@@ -3,1231 +3,217 @@
     "slug": "cremes",
     "category": "Crèmes & Lotions Corps",
     "products": [
-      {
-        "id": "creme1",
-        "pic": "/creme/crem (1).png",
-        "name": "ADVANCED CLINICALS Collagen + Peptide Firming Face & Body Cream",
-        "price": "25000",
-        "desc": "Crème raffermissante au collagène et aux peptides, réduit l'apparence des rides et améliore l'élasticité de la peau."
-      },
-      {
-        "id": "creme2",
-        "pic": "/creme/crem (2).png",
-        "name": "SKIN NUTR. With Collagen & Hyaluronic Wrinkle Smoothing Cream Body Butter",
-        "price": "25000",
-        "desc": "Beurre corporel lissant à l'acide hyaluronique et au collagène, hydrate en profondeur et atténue les ridules."
-      },
-      {
-        "id": "creme3",
-        "pic": "/creme/crem (3).png",
-        "name": "ADVANCED CLINICALS Vitamin C Advanced Brightening Cream",
-        "price": "25000",
-        "desc": "Crème éclaircissante à la vitamine C, unifie le teint et redonne de l'éclat à la peau terne."
-      },
-      {
-        "id": "creme4",
-        "pic": "/creme/crem (4).png",
-        "name": "ADVANCED CLINICALS Vitamin C + Turmeric Brightening Body Cream",
-        "price": "25000",
-        "desc": "Alliance de la vitamine C et du curcuma pour illuminer et unifier le teint du corps en douceur."
-      },
-      {
-        "id": "creme5",
-        "pic": "/creme/crem (5).png",
-        "name": "ADVANCED CLINICALS Retinol + Niacinamide Firming Body Cream",
-        "price": "25000",
-        "desc": "Crème raffermissante au rétinol et à la niacinamide, combat le relâchement cutané et resserre les pores."
-      },
-      {
-        "id": "creme6",
-        "pic": "/creme/crem (6).png",
-        "name": "ADVANCED CLINICALS Hyaluronic Acid Instant Skin Hydrator",
-        "price": "25000",
-        "desc": "Hydratant instantané à l'acide hyaluronique, repulpe la peau et maintient son niveau d'hydratation toute la journée."
-      },
-      {
-        "id": "creme7",
-        "pic": "/creme/crem (7).png",
-        "name": "EOS (Evolution of Smooth) — Strawberry Dream / Crème de Pistachio / Vanilla Cashmere",
-        "price": "18000",
-        "desc": "Lotions corps gourmandes aux fragrances irrésistibles, offrant 24h d'hydratation intense aux peaux sèches."
-      },
-      {
-        "id": "creme8",
-        "pic": "/creme/crem (8).png",
-        "name": "DR TEAL'S Body Lotion 24 Hour Moisture",
-        "price": "25000",
-        "desc": "Lotion corps longue durée enrichie aux huiles essentielles, nourrit et adoucit la peau pendant 24 heures."
-      },
-      {
-        "id": "creme9",
-        "pic": "/creme/crem (9).png",
-        "name": "OOTD (Oxygen of the Day) Intensive Moisturizing Body Lotion (H+)",
-        "price": "18000",
-        "desc": "Lotion hydratante intensive enrichie en oxygène actif, revitalise et illumine les peaux fatiguées."
-      },
-      {
-        "id": "creme10",
-        "pic": "/creme/crem (10).png",
-        "name": "CRÈME/REPUBLIC Goat Milk + Honey Body Lotion",
-        "price": "25000",
-        "desc": "Lotion au lait de chèvre et au miel, apaise les peaux sensibles et les enveloppe d'une douceur incomparable."
-      },
-      {
-        "id": "creme11",
-        "pic": "/creme/crem (11).png",
-        "name": "MEDIX 5.5 Hyaluronic + Cica Extract Body Cream",
-        "price": "25000",
-        "desc": "Crème corps à l'acide hyaluronique et à l'extrait de Cica, hydrate et répare la barrière cutanée fragilisée."
-      },
-      {
-        "id": "creme12",
-        "pic": "/creme/crem (12).png",
-        "name": "MEDIX 5.5 Retinol + Ferulic Acid Body Cream",
-        "price": "25000",
-        "desc": "Crème corps anti-âge au rétinol et à l'acide férulique, atténue les taches et raffermit la peau en profondeur."
-      },
-      {
-        "id": "creme13",
-        "pic": "/creme/crem (13).png",
-        "name": "MEDIX 5.5 Collagen + Peptides Body Cream",
-        "price": "25000",
-        "desc": "Crème corps repulpante au collagène et aux peptides, améliore la fermeté et l'élasticité de la peau."
-      },
-      {
-        "id": "creme14",
-        "pic": "/creme/crem (14).png",
-        "name": "MEDIX 5.5 Argan Oil + Vitamin E Body Cream",
-        "price": "25000",
-        "desc": "Crème nourrissante à l'huile d'argan et à la vitamine E, protège et nourrit les peaux sèches et abîmées."
-      },
-      {
-        "id": "creme15",
-        "pic": "/creme/crem (15).png",
-        "name": "MEDIX 5.5 Vitamin C + Niacinamide Body Wash",
-        "price": "18000",
-        "desc": "Gel douche éclat à la vitamine C et à la niacinamide, nettoie en douceur tout en unifiant le teint du corps."
-      },
-      {
-        "id": "creme16",
-        "pic": "/creme/crem (16).png",
-        "name": "Palmer's Cocoa Butter Formula Lotion (Tahitian Vanilla & Firms/Tones)",
-        "price": "18000",
-        "desc": "Lotion au beurre de cacao et vanille de Tahiti, hydrate, affine le galbe et laisse un parfum envoûtant."
-      },
-      {
-        "id": "creme17",
-        "pic": "/creme/crem (17).png",
-        "name": "Old Spice Captain Sniffworthy Lotion (Scent of Bergamot)",
-        "price": "18000",
-        "desc": "Lotion corps légère au bergamote, hydrate la peau des hommes en laissant une fragrance fraîche et masculine."
-      },
-      {
-        "id": "creme18",
-        "pic": "/creme/crem (18).png",
-        "name": "APLB Collagen EGF Peptide Body Lotion",
-        "price": "25000",
-        "desc": "Lotion corps coréenne au collagène et à l'EGF, booste la régénération cellulaire pour une peau visiblement plus jeune."
-      },
-      {
-        "id": "creme19",
-        "pic": "/creme/crem (19).png",
-        "name": "APLB Glutathione Niacinamide Body Lotion",
-        "price": "25000",
-        "desc": "Lotion corps au glutathion et à la niacinamide, éclaircit les taches et illumine le teint pour un effet glass skin."
-      },
-      {
-        "id": "creme20",
-        "pic": "/creme/crem (20).png",
-        "name": "MIIM.MIIC 166 Body Lotion",
-        "price": "20000",
-        "desc": "Lotion corps premium à la formule légère, hydrate intensément tout en laissant un fini satiné et soyeux."
-      },
-      {
-        "id": "creme21",
-        "pic": "/creme/crem (21).png",
-        "name": "Billie — GLOW / SENSI / SOOTHE Body Lotion",
-        "price": "25000",
-        "desc": "Gamme de lotions corps ciblées : éclat, ultra-douce pour peaux sensibles, ou apaisante pour peaux réactives."
-      },
-      {
-        "id": "creme22",
-        "pic": "/creme/crem (22).png",
-        "name": "Jergens Ultra Healing",
-        "price": "20000",
-        "desc": "Lotion réparatrice aux vitamines C, E et B5, soulage et cicatrise rapidement les peaux très sèches et abîmées."
-      },
-      {
-        "id": "creme23",
-        "pic": "/creme/crem (23).png",
-        "name": "Soap & Glory — The Righteous Butter",
-        "price": "25000",
-        "desc": "Beurre corps iconique au karité, mandarine et fleur de camomille, laisse la peau douce comme de la soie."
-      },
-      {
-        "id": "creme24",
-        "pic": "/creme/crem (24).png",
-        "name": "Palmer's Shea Butter Formula with Vitamin E",
-        "price": "20000",
-        "desc": "Formule au beurre de karité et à la vitamine E, adoucit et protège les peaux sèches et sensibles en profondeur."
-      },
-      {
-        "id": "creme25",
-        "pic": "/creme/crem (25).png",
-        "name": "Aquaphor Healing Ointment — Advanced Therapy",
-        "price": "25000",
-        "desc": "Baume cicatrisant multi-usage, idéal pour les peaux sèches, lèvres gercées et petites irritations cutanées."
-      },
-      {
-        "id": "creme26",
-        "pic": "/creme/crem (26).png",
-        "name": "Palmer's Coconut Oil Formula — Brazilian Coco Cream",
-        "price": "20000",
-        "desc": "Crème à l'huile de coco brésilienne, nourrit intensément et sublime la peau d'un hâle tropical éclatant."
-      },
-      {
-        "id": "creme27",
-        "pic": "/creme/crem (27).png",
-        "name": "Noxzema Original Classic Clean",
-        "price": "25000",
-        "desc": "Crème nettoyante classique aux huiles essentielles, nettoie en profondeur et laisse une sensation de fraîcheur."
-      },
-      {
-        "id": "creme28",
-        "pic": "/creme/crem (28).png",
-        "name": "Vaseline Intensive Care — Advanced Repair (Lot de 2)",
-        "price": "15000",
-        "desc": "Duo de lotions réparatrices Vaseline, restaure la barrière cutanée et hydrate les peaux très sèches durablement."
-      },
-      {
-        "id": "creme29",
-        "pic": "/creme/crem (29).png",
-        "name": "Neutrogena Deep Moisture — Hypoallergenic Body Lotion (Dry, Sensitive Skin)",
-        "price": "20000",
-        "desc": "Lotion hypoallergénique à absorption rapide, conçue pour les peaux sèches et sensibles sans parfum irritant."
-      },
-      {
-        "id": "creme30",
-        "pic": "/creme/crem (30).png",
-        "name": "Boulangerie Paris — Fraise Meringuée (Crème pour le corps)",
-        "price": "20000",
-        "desc": "Crème corps gourmande aux notes de fraise meringuée, hydrate délicieusement avec un parfum de pâtisserie parisienne."
-      },
-      {
-        "id": "creme31",
-        "pic": "/creme/crem (31).png",
-        "name": "Manuka Honey & Macadamia Body Butter Soothe & Hydrate",
-        "price": "20000",
-        "desc": "Beurre corps au miel de Manuka et à la macadamia, apaise, nourrit et protège les peaux sensibles et irritées."
-      },
-      {
-        "id": "creme32",
-        "pic": "/creme/crem (32).png",
-        "name": "Advanced Clinicals — Vitamin C Brightening Body Oil (With Turmeric)",
-        "price": "20000",
-        "desc": "Huile corporelle éclat à la vitamine C et au curcuma, illumine le teint et unifie la peau en quelques applications."
-      }
+      { "id": "creme1", "pic": "/creme/crem (1).png", "name": "ADVANCED CLINICALS Collagen + Peptide Firming Face & Body Cream", "price": "20000", "desc": "Crème raffermissante au collagène et aux peptides, réduit l'apparence des rides et améliore l'élasticité de la peau." },
+      { "id": "creme2", "pic": "/creme/crem (2).png", "name": "SKIN NUTR. With Collagen & Hyaluronic Wrinkle Smoothing Cream Body Butter", "price": "20000", "desc": "Beurre corporel lissant à l'acide hyaluronique et au collagène, hydrate en profondeur et atténue les ridules." },
+      { "id": "creme3", "pic": "/creme/crem (3).png", "name": "ADVANCED CLINICALS Vitamin C Advanced Brightening Cream", "price": "20000", "desc": "Crème éclaircissante à la vitamine C, unifie le teint et redonne de l'éclat à la peau terne." },
+      { "id": "creme4", "pic": "/creme/crem (4).png", "name": "ADVANCED CLINICALS Vitamin C + Turmeric Brightening Body Cream", "price": "20000", "desc": "Alliance de la vitamine C et du curcuma pour illuminer et unifier le teint du corps en douceur." },
+      { "id": "creme5", "pic": "/creme/crem (5).png", "name": "ADVANCED CLINICALS Retinol + Niacinamide Firming Body Cream", "price": "20000", "desc": "Crème raffermissante au rétinol et à la niacinamide, combat le relâchement cutané et resserre les pores." },
+      { "id": "creme6", "pic": "/creme/crem (6).png", "name": "ADVANCED CLINICALS Hyaluronic Acid Instant Skin Hydrator", "price": "20000", "desc": "Hydratant instantané à l'acide hyaluronique, repulpe la peau et maintient son niveau d'hydratation toute la journée." },
+      { "id": "creme7", "pic": "/creme/crem (7).png", "name": "EOS (Evolution of Smooth) — Strawberry Dream / Crème de Pistachio / Vanilla Cashmere", "price": "18000", "desc": "Lotions corps gourmandes aux fragrances irrésistibles, offrant 24h d'hydratation intense aux peaux sèches." },
+      { "id": "creme8", "pic": "/creme/crem (8).png", "name": "DR TEAL'S Body Lotion 24 Hour Moisture", "price": "20000", "desc": "Lotion corps longue durée enrichie aux huiles essentielles, nourrit et adoucit la peau pendant 24 heures." },
+      { "id": "creme9", "pic": "/creme/crem (9).png", "name": "OOTD (Oxygen of the Day) Intensive Moisturizing Body Lotion (H+)", "price": "18000", "desc": "Lotion hydratante intensive enrichie en oxygène actif, revitalise et illumine les peaux fatiguées." },
+      { "id": "creme10", "pic": "/creme/crem (10).png", "name": "CRÈME/REPUBLIC Goat Milk + Honey Body Lotion", "price": "20000", "desc": "Lotion au lait de chèvre et au miel, apaise les peaux sensibles et les enveloppe d'une douceur incomparable." },
+      { "id": "creme11", "pic": "/creme/crem (11).png", "name": "MEDIX 5.5 Hyaluronic + Cica Extract Body Cream", "price": "20000", "desc": "Crème corps à l'acide hyaluronique et à l'extrait de Cica, hydrate et répare la barrière cutanée fragilisée." },
+      { "id": "creme12", "pic": "/creme/crem (12).png", "name": "MEDIX 5.5 Retinol + Ferulic Acid Body Cream", "price": "20000", "desc": "Crème corps anti-âge au rétinol et à l'acide férulique, atténue les taches et raffermit la peau en profondeur." },
+      { "id": "creme13", "pic": "/creme/crem (13).png", "name": "MEDIX 5.5 Collagen + Peptides Body Cream", "price": "20000", "desc": "Crème corps repulpante au collagène et aux peptides, améliore la fermeté et l'élasticité de la peau." },
+      { "id": "creme14", "pic": "/creme/crem (14).png", "name": "MEDIX 5.5 Argan Oil + Vitamin E Body Cream", "price": "20000", "desc": "Crème nourrissante à l'huile d'argan et à la vitamine E, protège et nourrit les peaux sèches et abîmées." },
+      { "id": "creme15", "pic": "/creme/crem (15).png", "name": "MEDIX 5.5 Vitamin C + Niacinamide Body Wash", "price": "18000", "desc": "Gel douche éclat à la vitamine C et à la niacinamide, nettoie en douceur tout en unifiant le teint du corps." },
+      { "id": "creme16", "pic": "/creme/crem (16).png", "name": "Palmer's Cocoa Butter Formula Lotion (Tahitian Vanilla & Firms/Tones)", "price": "18000", "desc": "Lotion au beurre de cacao et vanille de Tahiti, hydrate, affine le galbe et laisse un parfum envoûtant." },
+      { "id": "creme17", "pic": "/creme/crem (17).png", "name": "Old Spice Captain Sniffworthy Lotion (Scent of Bergamot)", "price": "18000", "desc": "Lotion corps légère au bergamote, hydrate la peau des hommes en laissant une fragrance fraîche et masculine." },
+      { "id": "creme18", "pic": "/creme/crem (18).png", "name": "APLB Collagen EGF Peptide Body Lotion", "price": "20000", "desc": "Lotion corps coréenne au collagène et à l'EGF, booste la régénération cellulaire pour une peau visiblement plus jeune." },
+      { "id": "creme19", "pic": "/creme/crem (19).png", "name": "APLB Glutathione Niacinamide Body Lotion", "price": "20000", "desc": "Lotion corps au glutathion et à la niacinamide, éclaircit les taches et illumine le teint pour un effet glass skin." },
+      { "id": "creme20", "pic": "/creme/crem (20).png", "name": "MIIM.MIIC 166 Body Lotion", "price": "18000", "desc": "Lotion corps premium à la formule légère, hydrate intensément tout en laissant un fini satiné et soyeux." },
+      { "id": "creme21", "pic": "/creme/crem (21).png", "name": "Billie — GLOW / SENSI / SOOTHE Body Lotion", "price": "20000", "desc": "Gamme de lotions corps ciblées : éclat, ultra-douce pour peaux sensibles, ou apaisante pour peaux réactives." },
+      { "id": "creme22", "pic": "/creme/crem (22).png", "name": "Jergens Ultra Healing", "price": "18000", "desc": "Lotion réparatrice aux vitamines C, E et B5, soulage et cicatrise rapidement les peaux très sèches et abîmées." },
+      { "id": "creme23", "pic": "/creme/crem (23).png", "name": "Soap & Glory — The Righteous Butter", "price": "20000", "desc": "Beurre corps iconique au karité, mandarine et fleur de camomille, laisse la peau douce comme de la soie." },
+      { "id": "creme24", "pic": "/creme/crem (24).png", "name": "Palmer's Shea Butter Formula with Vitamin E", "price": "18000", "desc": "Formule au beurre de karité et à la vitamine E, adoucit et protège les peaux sèches et sensibles en profondeur." },
+      { "id": "creme25", "pic": "/creme/crem (25).png", "name": "Aquaphor Healing Ointment — Advanced Therapy", "price": "20000", "desc": "Baume cicatrisant multi-usage, idéal pour les peaux sèches, lèvres gercées et petites irritations cutanées." },
+      { "id": "creme26", "pic": "/creme/crem (26).png", "name": "Palmer's Coconut Oil Formula — Brazilian Coco Cream", "price": "18000", "desc": "Crème à l'huile de coco brésilienne, nourrit intensément et sublime la peau d'un hâle tropical éclatant." },
+      { "id": "creme27", "pic": "/creme/crem (27).png", "name": "Noxzema Original Classic Clean", "price": "20000", "desc": "Crème nettoyante classique aux huiles essentielles, nettoie en profondeur et laisse une sensation de fraîcheur." },
+      { "id": "creme28", "pic": "/creme/crem (28).png", "name": "Vaseline Intensive Care — Advanced Repair (Lot de 2)", "price": "13000", "desc": "Duo de lotions réparatrices Vaseline, restaure la barrière cutanée et hydrate les peaux très sèches durablement." },
+      { "id": "creme29", "pic": "/creme/crem (29).png", "name": "Neutrogena Deep Moisture — Hypoallergenic Body Lotion (Dry, Sensitive Skin)", "price": "18000", "desc": "Lotion hypoallergénique à absorption rapide, conçue pour les peaux sèches et sensibles sans parfum irritant." },
+      { "id": "creme30", "pic": "/creme/crem (30).png", "name": "Boulangerie Paris — Fraise Meringuée (Crème pour le corps)", "price": "18000", "desc": "Crème corps gourmande aux notes de fraise meringuée, hydrate délicieusement avec un parfum de pâtisserie parisienne." },
+      { "id": "creme31", "pic": "/creme/crem (31).png", "name": "Manuka Honey & Macadamia Body Butter Soothe & Hydrate", "price": "18000", "desc": "Beurre corps au miel de Manuka et à la macadamia, apaise, nourrit et protège les peaux sensibles et irritées." },
+      { "id": "creme32", "pic": "/creme/crem (32).png", "name": "Advanced Clinicals — Vitamin C Brightening Body Oil (With Turmeric)", "price": "18000", "desc": "Huile corporelle éclat à la vitamine C et au curcuma, illumine le teint et unifie la peau en quelques applications." }
     ]
   },
   {
     "slug": "soap",
     "category": "Gels Douche & Savons",
     "products": [
-      {
-        "id": "bs1",
-        "pic": "/soap/bs (1).png",
-        "name": "BodyCode Australia Brightening Vitamin C + Turmeric Body Wash",
-        "price": "20000",
-        "desc": "Gel douche éclaircissant à la vitamine C et au curcuma, nettoie et illumine le teint du corps à chaque douche."
-      },
-      {
-        "id": "bs2",
-        "pic": "/soap/bs (2).png",
-        "name": "Luseta — Turmeric & Collagen Body Wash",
-        "price": "20000",
-        "desc": "Gel douche au curcuma et au collagène, raffermit la peau tout en la nettoyant en douceur et efficacement."
-      },
-      {
-        "id": "bs3",
-        "pic": "/soap/bs (3).png",
-        "name": "Spanish Garden — Brightening Turmeric & Ginger Body Wash",
-        "price": "20000",
-        "desc": "Gel douche éclat au gingembre et au curcuma, stimule la circulation et révèle une peau lumineuse et revitalisée."
-      },
-      {
-        "id": "bs4",
-        "pic": "/soap/bs (4).png",
-        "name": "EcoPure — Manuka Honey & Macadamia Shower Gel",
-        "price": "20000",
-        "desc": "Gel douche naturel au miel de Manuka et à la macadamia, nettoie et nourrit les peaux sèches avec douceur."
-      },
-      {
-        "id": "bs5",
-        "pic": "/soap/bs (5).png",
-        "name": "Olay — Elasticity Boosting & Intensely Hydrating Serum Body Washes",
-        "price": "25000",
-        "desc": "Gel douche-sérum Olay qui booste l'élasticité cutanée et hydrate intensément dès la première utilisation."
-      },
-      {
-        "id": "bs6",
-        "pic": "/soap/bs (6).png",
-        "name": "Happy Bath — Rice Milk Ceramide Body Wash (Cotton Cloud)",
-        "price": "20000",
-        "desc": "Gel douche coréen au lait de riz et aux céramides, préserve la barrière hydrolipidique pour une peau douce et protégée."
-      },
-      {
-        "id": "bs7",
-        "pic": "/soap/bs (7).png",
-        "name": "Olay — Fresh Radiance & Moisture Renewal Body Wash Trio",
-        "price": "3000",
-        "desc": "Trio de gels douche Olay pour un éclat frais, renouvelle l'hydratation de la peau à chaque utilisation."
-      },
-      {
-        "id": "bs8",
-        "pic": "/soap/bs (8).png",
-        "name": "Tree Hut — Vitamin C Foaming Gel Wash",
-        "price": "20000",
-        "desc": "Gel moussant à la vitamine C qui nettoie en profondeur tout en apportant de l'éclat à la peau terne."
-      },
-      {
-        "id": "bs9",
-        "pic": "/soap/bs (9).png",
-        "name": "Dove — Glow Recharge Brightening Body Wash (3% Serum)",
-        "price": "15000",
-        "desc": "Gel douche Dove enrichi à 3% de sérum éclaircissant, révèle la luminosité naturelle de la peau dès la douche."
-      },
-      {
-        "id": "bs10",
-        "pic": "/soap/bs (10).png",
-        "name": "Dr Teal's — Soothe & Sleep Lavender Body Wash",
-        "price": "25000",
-        "desc": "Gel douche à la lavande apaisante, favorise la relaxation et prépare le corps à un sommeil profond et réparateur."
-      },
-      {
-        "id": "bs11",
-        "pic": "/soap/bs (11).png",
-        "name": "Alpha Skin Care Moisturizing Body Wash",
-        "price": "20000",
-        "desc": "Gel douche hydratant aux acides alpha-hydroxy, exfolie doucement et améliore la texture de la peau."
-      },
-      {
-        "id": "bs12",
-        "pic": "/soap/bs (12).png",
-        "name": "Cremo Heritage Body Wash Fresh Timber",
-        "price": "20000",
-        "desc": "Gel douche masculin aux notes boisées fraîches, nettoie et hydrate en laissant une fragrance sophistiquée."
-      },
-      {
-        "id": "bs13",
-        "pic": "/soap/bs (13).png",
-        "name": "A La Maison de Provence Goat Milk Bar Soap",
-        "price": "25000",
-        "desc": "Savon artisanal au lait de chèvre inspiré de la Provence, nettoie délicatement et hydrate les peaux sensibles."
-      },
-      {
-        "id": "bs14",
-        "pic": "/soap/bs (14).png",
-        "name": "Irish Spring Bar Soap — Aloe Mist",
-        "price": "3000",
-        "desc": "Savon en barre à l'aloe vera, rafraîchit et nettoie la peau tout en préservant son hydratation naturelle."
-      },
-      {
-        "id": "bs15",
-        "pic": "/soap/bs (15).png",
-        "name": "Olay Bodyscience Beauty Bar — Cleansing & Brightening",
-        "price": "25000",
-        "desc": "Pain de beauté Olay nettoyant et éclaircissant, révèle un teint unifié et une peau visiblement plus lumineuse."
-      },
-      {
-        "id": "bs16",
-        "pic": "/soap/bs (16).png",
-        "name": "Silk Olive Naturelle — Crème au Lait Hydratant",
-        "price": "20000",
-        "desc": "Crème lavante au lait et à l'olive, nourrit intensément et laisse la peau douce, soyeuse et délicatement parfumée."
-      },
-      {
-        "id": "bs17",
-        "pic": "/soap/bs (17).png",
-        "name": "Goat Milk Soap / Savon au Lait de Chèvre",
-        "price": "25000",
-        "desc": "Savon naturel au lait de chèvre riche en protéines, adoucit et apaise les peaux sèches et irritées au quotidien."
-      },
-      {
-        "id": "bs18",
-        "pic": "/soap/bs (18).png",
-        "name": "Bath & Body Works — In The Stars Moisturizing Body Wash",
-        "price": "15000",
-        "desc": "Gel douche hydratant Bath & Body Works aux notes célestes de fleur de cerisier et de musc, un voyage sensoriel."
-      },
-      {
-        "id": "bs19",
-        "pic": "/soap/bs (19).png",
-        "name": "MIIM.MIIC 166 Body Wash Marshmallow Gourmands",
-        "price": "20000",
-        "desc": "Gel douche gourmand aux notes de marshmallow, nettoie en douceur et enveloppe la peau d'une fragrance sucrée."
-      },
-      {
-        "id": "bs20",
-        "pic": "/soap/bs (20).png",
-        "name": "OGX Scrub & Wash Duo (Rose Water & Coconut Coffee)",
-        "price": "20000",
-        "desc": "Duo gommage et gel douche à l'eau de rose et au café de coco, exfolie et revitalise la peau en profondeur."
-      },
-      {
-        "id": "bs21",
-        "pic": "/soap/bs (21).png",
-        "name": "EOS Shea Better Cashmere Body Wash — Vanilla Cashmere / Pink Champagne / Fresh & Cozy",
-        "price": "20000",
-        "desc": "Gel douche au beurre de karité ultra-doux, hydrate la peau dès la douche avec des fragrances luxueuses et apaisantes."
-      },
-      {
-        "id": "bs22",
-        "pic": "/soap/bs (22).png",
-        "name": "Savon Clarifiant & Revitalisant — Acide Kojique & Curcuma",
-        "price": "3000",
-        "desc": "Savon corps clarifiant à l'acide kojique et au curcuma, réduit les taches sombres et unifie le teint progressivement."
-      }
+      { "id": "bs1", "pic": "/soap/bs (1).png", "name": "BodyCode Australia Brightening Vitamin C + Turmeric Body Wash", "price": "18000", "desc": "Gel douche éclaircissant à la vitamine C et au curcuma, nettoie et illumine le teint du corps à chaque douche." },
+      { "id": "bs2", "pic": "/soap/bs (2).png", "name": "Luseta — Turmeric & Collagen Body Wash", "price": "18000", "desc": "Gel douche au curcuma et au collagène, raffermit la peau tout en la nettoyant en douceur et efficacement." },
+      { "id": "bs3", "pic": "/soap/bs (3).png", "name": "Spanish Garden — Brightening Turmeric & Ginger Body Wash", "price": "18000", "desc": "Gel douche éclat au gingembre et au curcuma, stimule la circulation et révèle une peau lumineuse et revitalisée." },
+      { "id": "bs4", "pic": "/soap/bs (4).png", "name": "EcoPure — Manuka Honey & Macadamia Shower Gel", "price": "18000", "desc": "Gel douche naturel au miel de Manuka et à la macadamia, nettoie et nourrit les peaux sèches avec douceur." },
+      { "id": "bs5", "pic": "/soap/bs (5).png", "name": "Olay — Elasticity Boosting & Intensely Hydrating Serum Body Washes", "price": "20000", "desc": "Gel douche-sérum Olay qui booste l'élasticité cutanée et hydrate intensément dès la première utilisation." },
+      { "id": "bs6", "pic": "/soap/bs (6).png", "name": "Happy Bath — Rice Milk Ceramide Body Wash (Cotton Cloud)", "price": "18000", "desc": "Gel douche coréen au lait de riz et aux céramides, préserve la barrière hydrolipidique pour une peau douce et protégée." },
+      { "id": "bs7", "pic": "/soap/bs (7).png", "name": "Olay — Fresh Radiance & Moisture Renewal Body Wash Trio", "price": "3000", "desc": "Trio de gels douche Olay pour un éclat frais, renouvelle l'hydratation de la peau à chaque utilisation." },
+      { "id": "bs8", "pic": "/soap/bs (8).png", "name": "Tree Hut — Vitamin C Foaming Gel Wash", "price": "18000", "desc": "Gel moussant à la vitamine C qui nettoie en profondeur tout en apportant de l'éclat à la peau terne." },
+      { "id": "bs9", "pic": "/soap/bs (9).png", "name": "Dove — Glow Recharge Brightening Body Wash (3% Serum)", "price": "13000", "desc": "Gel douche Dove enrichi à 3% de sérum éclaircissant, révèle la luminosité naturelle de la peau dès la douche." },
+      { "id": "bs10", "pic": "/soap/bs (10).png", "name": "Dr Teal's — Soothe & Sleep Lavender Body Wash", "price": "20000", "desc": "Gel douche à la lavande apaisante, favorise la relaxation et prépare le corps à un sommeil profond et réparateur." },
+      { "id": "bs11", "pic": "/soap/bs (11).png", "name": "Alpha Skin Care Moisturizing Body Wash", "price": "18000", "desc": "Gel douche hydratant aux acides alpha-hydroxy, exfolie doucement et améliore la texture de la peau." },
+      { "id": "bs12", "pic": "/soap/bs (12).png", "name": "Cremo Heritage Body Wash Fresh Timber", "price": "18000", "desc": "Gel douche masculin aux notes boisées fraîches, nettoie et hydrate en laissant une fragrance sophistiquée." },
+      { "id": "bs13", "pic": "/soap/bs (13).png", "name": "A La Maison de Provence Goat Milk Bar Soap", "price": "20000", "desc": "Savon artisanal au lait de chèvre inspiré de la Provence, nettoie délicatement et hydrate les peaux sensibles." },
+      { "id": "bs14", "pic": "/soap/bs (14).png", "name": "Irish Spring Bar Soap — Aloe Mist", "price": "3000", "desc": "Savon en barre à l'aloe vera, rafraîchit et nettoie la peau tout en préservant son hydratation naturelle." },
+      { "id": "bs15", "pic": "/soap/bs (15).png", "name": "Olay Bodyscience Beauty Bar — Cleansing & Brightening", "price": "20000", "desc": "Pain de beauté Olay nettoyant et éclaircissant, révèle un teint unifié et une peau visiblement plus lumineuse." },
+      { "id": "bs16", "pic": "/soap/bs (16).png", "name": "Silk Olive Naturelle — Crème au Lait Hydratant", "price": "18000", "desc": "Crème lavante au lait et à l'olive, nourrit intensément et laisse la peau douce, soyeuse et délicatement parfumée." },
+      { "id": "bs17", "pic": "/soap/bs (17).png", "name": "Goat Milk Soap / Savon au Lait de Chèvre", "price": "20000", "desc": "Savon naturel au lait de chèvre riche en protéines, adoucit et apaise les peaux sèches et irritées au quotidien." },
+      { "id": "bs18", "pic": "/soap/bs (18).png", "name": "Bath & Body Works — In The Stars Moisturizing Body Wash", "price": "13000", "desc": "Gel douche hydratant Bath & Body Works aux notes célestes de fleur de cerisier et de musc, un voyage sensoriel." },
+      { "id": "bs19", "pic": "/soap/bs (19).png", "name": "MIIM.MIIC 166 Body Wash Marshmallow Gourmands", "price": "18000", "desc": "Gel douche gourmand aux notes de marshmallow, nettoie en douceur et enveloppe la peau d'une fragrance sucrée." },
+      { "id": "bs20", "pic": "/soap/bs (20).png", "name": "OGX Scrub & Wash Duo (Rose Water & Coconut Coffee)", "price": "18000", "desc": "Duo gommage et gel douche à l'eau de rose et au café de coco, exfolie et revitalise la peau en profondeur." },
+      { "id": "bs21", "pic": "/soap/bs (21).png", "name": "EOS Shea Better Cashmere Body Wash — Vanilla Cashmere / Pink Champagne / Fresh & Cozy", "price": "18000", "desc": "Gel douche au beurre de karité ultra-doux, hydrate la peau dès la douche avec des fragrances luxueuses et apaisantes." },
+      { "id": "bs22", "pic": "/soap/bs (22).png", "name": "Savon Clarifiant & Revitalisant — Acide Kojique & Curcuma", "price": "3000", "desc": "Savon corps clarifiant à l'acide kojique et au curcuma, réduit les taches sombres et unifie le teint progressivement." }
     ]
   },
   {
     "slug": "face",
     "category": "Soins Visage",
     "products": [
-      {
-        "id": "face1",
-        "pic": "/face/face (1).png",
-        "name": "Advanced Clinicals — Firming Eye Cream / Collagen Multi-Lift / Encapsulated Retinol / Moisture Boost Hyaluronic",
-        "price": "25000",
-        "desc": "Gamme de crèmes visage Advanced Clinicals ciblées : contour des yeux, liftant, anti-âge au rétinol ou hydratant."
-      },
-      {
-        "id": "face2",
-        "pic": "/face/face (2).png",
-        "name": "Advanced Clinicals — Collagen Serum (Instant Plumping Serum)",
-        "price": "20000",
-        "desc": "Sérum repulpant au collagène, réduit visiblement les rides et restore le volume du visage en quelques semaines."
-      },
-      {
-        "id": "face3",
-        "pic": "/face/face (3).png",
-        "name": "Advanced Clinicals — Vitamin C Serum (Anti-Aging Serum)",
-        "price": "20000",
-        "desc": "Sérum anti-âge à la vitamine C, éclat, unifie le teint et protège la peau contre les agressions environnementales."
-      },
-      {
-        "id": "face4",
-        "pic": "/face/face (4).png",
-        "name": "Advanced Clinicals — Retinol Serum (Anti-Wrinkle Serum)",
-        "price": "20000",
-        "desc": "Sérum anti-rides au rétinol, stimule le renouvellement cellulaire et lisse la texture de la peau nuit après nuit."
-      },
-      {
-        "id": "face5",
-        "pic": "/face/face (5).png",
-        "name": "Advanced Clinicals — Collagen Rosewater Plump + Glow Facial Mist",
-        "price": "20000",
-        "desc": "Brume visage à l'eau de rose et au collagène, repulpe et illumine le teint instantanément à tout moment de la journée."
-      },
-      {
-        "id": "face6",
-        "pic": "/face/face (6).png",
-        "name": "The Beauty Elixir — Sérums Retinol / Collagen & Peptides / Collagen & Aloe",
-        "price": "15000",
-        "desc": "Gamme de sérums visage premium alliant rétinol, peptides et aloe vera pour un soin anti-âge complet et efficace."
-      },
-      {
-        "id": "face7",
-        "pic": "/face/face (7).png",
-        "name": "Revitalux — Vitamin C + Ceramides (2-in-1 Brightening Priming Serum)",
-        "price": "20000",
-        "desc": "Sérum-primer 2-en-1 à la vitamine C et aux céramides, éclat le teint et prépare la peau pour un maquillage parfait."
-      },
-      {
-        "id": "face8",
-        "pic": "/face/face (8).png",
-        "name": "Advanced Clinicals — Puffy Eye Serum (Under-Eye Serum)",
-        "price": "15000",
-        "desc": "Sérum contour des yeux anti-poches, réduit les cernes et les gonflements pour un regard plus frais et reposé."
-      },
-      {
-        "id": "face9",
-        "pic": "/face/face (9).png",
-        "name": "Elastalift — Brighten Boost Vitamin C + Turmeric Firming Face Cream",
-        "price": "15000",
-        "desc": "Crème visage raffermissante à la vitamine C et au curcuma, booste l'éclat et la fermeté de la peau en profondeur."
-      },
-      {
-        "id": "face10",
-        "pic": "/face/face (10).png",
-        "name": "Skin Aesthetics — Advanced Brightening Facial Moisturizer (Vitamin C & Collagen)",
-        "price": "15000",
-        "desc": "Hydratant visage éclat à la vitamine C et au collagène, nourrit et unifie le teint pour une peau lumineuse."
-      },
-      {
-        "id": "face11",
-        "pic": "/face/face (11).png",
-        "name": "Palmer's Cocoa Butter Formula — Moisture Rich Night Cream",
-        "price": "15000",
-        "desc": "Crème de nuit au beurre de cacao, rétinol et peptides, régénère la peau pendant le sommeil pour un réveil radieux."
-      },
-      {
-        "id": "face12",
-        "pic": "/face/face (12).png",
-        "name": "Dermatouch — Turmeric Honey Brightening Facial Cleanser",
-        "price": "15000",
-        "desc": "Nettoyant visage au miel et au curcuma, purifie en douceur tout en illuminant le teint pour une peau nette et éclatante."
-      },
-      {
-        "id": "face13",
-        "pic": "/face/face (13).png",
-        "name": "Dr. Lift Preferred — Vitamin C + Jojoba Oil Brightening & Hydrating Cleanser",
-        "price": "20000",
-        "desc": "Nettoyant éclat à la vitamine C et à l'huile de jojoba, hydrate et illumine le teint tout en purifiant les pores."
-      },
-      {
-        "id": "face14",
-        "pic": "/face/face (14).png",
-        "name": "Neutrogena Oil-Free Acne Wash (MicroClear Technology)",
-        "price": "20000",
-        "desc": "Gel nettoyant anti-acné sans huile à l'acide salicylique, désobstrue les pores et réduit les imperfections rapidement."
-      },
-      {
-        "id": "face15",
-        "pic": "/face/face (15).png",
-        "name": "Advanced Clinicals — Vitamin C Brightening Body Oil",
-        "price": "15000",
-        "desc": "Huile corporelle éclat à la vitamine C, illumine le teint du corps et unifie les zones pigmentées durablement."
-      },
-      {
-        "id": "face16",
-        "pic": "/face/face (16).png",
-        "name": "Formula 25 Premium Skincare — Firming Collagen Face & Neck Cream",
-        "price": "20000",
-        "desc": "Crème raffermissante visage et cou au collagène premium, redensifie et retend la peau pour un effet lifting visible."
-      },
-      {
-        "id": "face17",
-        "pic": "/face/face (17).png",
-        "name": "Naturium — Multi-Peptide Advanced Serum",
-        "price": "20000",
-        "desc": "Sérum anti-rides aux multi-peptides, acide férulique et collagène, réduit les signes de l'âge et affine la texture."
-      },
-      {
-        "id": "face18",
-        "pic": "/face/face (18).png",
-        "name": "Best Skin — Facial Cleanser Infused with Vitamin C",
-        "price": "15000",
-        "desc": "Nettoyant visage éclat infusé à la vitamine C, nettoie en profondeur et booste la luminosité naturelle de la peau."
-      },
-      {
-        "id": "face19",
-        "pic": "/face/face (19).png",
-        "name": "The Honey Pot Company — Sensitive & Cucumber Aloe Foaming Washes",
-        "price": "15000",
-        "desc": "Soins moussants d'hygiène intime au concombre et à l'aloe vera, doux et équilibrés pour les peaux sensibles."
-      },
-      {
-        "id": "face20",
-        "pic": "/face/face(20).png",
-        "name": "Thayers Natural Remedies — Facial Toner Witch Hazel Aloe Vera Unscented",
-        "price": "15000",
-        "desc": "Tonique visage naturel à l'hamamélis et à l'aloe vera, resserre les pores et équilibre le pH sans dessécher la peau."
-      },
-      {
-        "id": "face21",
-        "pic": "/face/face(21).png",
-        "name": "Precision Beauty / Clear Beauty — Lingettes Démaquillantes (Retinol, Concombre, etc.)",
-        "price": "15000",
-        "desc": "Lingettes démaquillantes et nettoyantes multi-actifs, retirent le maquillage et impuretés tout en prenant soin de la peau."
-      },
-      {
-        "id": "face22",
-        "pic": "/face/face(22).png",
-        "name": "Clear Beauty — Cucumber & Aloe Moisturizing Face Masks",
-        "price": "15000",
-        "desc": "Masques visage hydratants au concombre et à l'aloe vera, revitalisent et apaisent la peau pour un effet bonne mine immédiat."
-      }
+      { "id": "face1", "pic": "/face/face (1).png", "name": "Advanced Clinicals — Firming Eye Cream / Collagen Multi-Lift / Encapsulated Retinol / Moisture Boost Hyaluronic", "price": "20000", "desc": "Gamme de crèmes visage Advanced Clinicals ciblées : contour des yeux, liftant, anti-âge au rétinol ou hydratant." },
+      { "id": "face2", "pic": "/face/face (2).png", "name": "Advanced Clinicals — Collagen Serum (Instant Plumping Serum)", "price": "18000", "desc": "Sérum repulpant au collagène, réduit visiblement les rides et restore le volume du visage en quelques semaines." },
+      { "id": "face3", "pic": "/face/face (3).png", "name": "Advanced Clinicals — Vitamin C Serum (Anti-Aging Serum)", "price": "18000", "desc": "Sérum anti-âge à la vitamine C, éclat, unifie le teint et protège la peau contre les agressions environnementales." },
+      { "id": "face4", "pic": "/face/face (4).png", "name": "Advanced Clinicals — Retinol Serum (Anti-Wrinkle Serum)", "price": "18000", "desc": "Sérum anti-rides au rétinol, stimule le renouvellement cellulaire et lisse la texture de la peau nuit après nuit." },
+      { "id": "face5", "pic": "/face/face (5).png", "name": "Advanced Clinicals — Collagen Rosewater Plump + Glow Facial Mist", "price": "18000", "desc": "Brume visage à l'eau de rose et au collagène, repulpe et illumine le teint instantanément à tout moment de la journée." },
+      { "id": "face6", "pic": "/face/face (6).png", "name": "The Beauty Elixir — Sérums Retinol / Collagen & Peptides / Collagen & Aloe", "price": "13000", "desc": "Gamme de sérums visage premium alliant rétinol, peptides et aloe vera pour un soin anti-âge complet et efficace." },
+      { "id": "face7", "pic": "/face/face (7).png", "name": "Revitalux — Vitamin C + Ceramides (2-in-1 Brightening Priming Serum)", "price": "18000", "desc": "Sérum-primer 2-en-1 à la vitamine C et aux céramides, éclat le teint et prépare la peau pour un maquillage parfait." },
+      { "id": "face8", "pic": "/face/face (8).png", "name": "Advanced Clinicals — Puffy Eye Serum (Under-Eye Serum)", "price": "13000", "desc": "Sérum contour des yeux anti-poches, réduit les cernes et les gonflements pour un regard plus frais et reposé." },
+      { "id": "face9", "pic": "/face/face (9).png", "name": "Elastalift — Brighten Boost Vitamin C + Turmeric Firming Face Cream", "price": "13000", "desc": "Crème visage raffermissante à la vitamine C et au curcuma, booste l'éclat et la fermeté de la peau en profondeur." },
+      { "id": "face10", "pic": "/face/face (10).png", "name": "Skin Aesthetics — Advanced Brightening Facial Moisturizer (Vitamin C & Collagen)", "price": "13000", "desc": "Hydratant visage éclat à la vitamine C et au collagène, nourrit et unifie le teint pour une peau lumineuse." },
+      { "id": "face11", "pic": "/face/face (11).png", "name": "Palmer's Cocoa Butter Formula — Moisture Rich Night Cream", "price": "13000", "desc": "Crème de nuit au beurre de cacao, rétinol et peptides, régénère la peau pendant le sommeil pour un réveil radieux." },
+      { "id": "face12", "pic": "/face/face (12).png", "name": "Dermatouch — Turmeric Honey Brightening Facial Cleanser", "price": "13000", "desc": "Nettoyant visage au miel et au curcuma, purifie en douceur tout en illuminant le teint pour une peau nette et éclatante." },
+      { "id": "face13", "pic": "/face/face (13).png", "name": "Dr. Lift Preferred — Vitamin C + Jojoba Oil Brightening & Hydrating Cleanser", "price": "18000", "desc": "Nettoyant éclat à la vitamine C et à l'huile de jojoba, hydrate et illumine le teint tout en purifiant les pores." },
+      { "id": "face14", "pic": "/face/face (14).png", "name": "Neutrogena Oil-Free Acne Wash (MicroClear Technology)", "price": "18000", "desc": "Gel nettoyant anti-acné sans huile à l'acide salicylique, désobstrue les pores et réduit les imperfections rapidement." },
+      { "id": "face15", "pic": "/face/face (15).png", "name": "Advanced Clinicals — Vitamin C Brightening Body Oil", "price": "13000", "desc": "Huile corporelle éclat à la vitamine C, illumine le teint du corps et unifie les zones pigmentées durablement." },
+      { "id": "face16", "pic": "/face/face (16).png", "name": "Formula 25 Premium Skincare — Firming Collagen Face & Neck Cream", "price": "18000", "desc": "Crème raffermissante visage et cou au collagène premium, redensifie et retend la peau pour un effet lifting visible." },
+      { "id": "face17", "pic": "/face/face (17).png", "name": "Naturium — Multi-Peptide Advanced Serum", "price": "18000", "desc": "Sérum anti-rides aux multi-peptides, acide férulique et collagène, réduit les signes de l'âge et affine la texture." },
+      { "id": "face18", "pic": "/face/face (18).png", "name": "Best Skin — Facial Cleanser Infused with Vitamin C", "price": "13000", "desc": "Nettoyant visage éclat infusé à la vitamine C, nettoie en profondeur et booste la luminosité naturelle de la peau." },
+      { "id": "face19", "pic": "/face/face (19).png", "name": "The Honey Pot Company — Sensitive & Cucumber Aloe Foaming Washes", "price": "13000", "desc": "Soins moussants d'hygiène intime au concombre et à l'aloe vera, doux et équilibrés pour les peaux sensibles." },
+      { "id": "face20", "pic": "/face/face(20).png", "name": "Thayers Natural Remedies — Facial Toner Witch Hazel Aloe Vera Unscented", "price": "13000", "desc": "Tonique visage naturel à l'hamamélis et à l'aloe vera, resserre les pores et équilibre le pH sans dessécher la peau." },
+      { "id": "face21", "pic": "/face/face(21).png", "name": "Precision Beauty / Clear Beauty — Lingettes Démaquillantes (Retinol, Concombre, etc.)", "price": "13000", "desc": "Lingettes démaquillantes et nettoyantes multi-actifs, retirent le maquillage et impuretés tout en prenant soin de la peau." },
+      { "id": "face22", "pic": "/face/face(22).png", "name": "Clear Beauty — Cucumber & Aloe Moisturizing Face Masks", "price": "13000", "desc": "Masques visage hydratants au concombre et à l'aloe vera, revitalisent et apaisent la peau pour un effet bonne mine immédiat." }
     ]
   },
   {
     "slug": "gommages-huiles",
     "category": "Gommages & Huiles Corps",
     "products": [
-      {
-        "id": "gom1",
-        "pic": "/gom/gom (1).png",
-        "name": "Dr Teal's Moisturizing Bath & Body Oil (Vanilla Comfort & Lavender)",
-        "price": "20000",
-        "desc": "Huile de bain et corps apaisante à la vanille et à la lavande, nourrit et adoucit la peau après chaque bain."
-      },
-      {
-        "id": "gom2",
-        "pic": "/gom/gom (2).png",
-        "name": "Palmer's Cocoa Butter Formula Moisturizes Softens Body Oil",
-        "price": "15000",
-        "desc": "Huile corps au beurre de cacao Palmer's, pénètre rapidement pour hydrater et adoucir la peau en profondeur."
-      },
-      {
-        "id": "gom3",
-        "pic": "/gom/gom (3).png",
-        "name": "Bliss Cloud 9 Nourishing Body Oil (Vanilla & Honey)",
-        "price": "10000",
-        "desc": "Huile corps nourrissante à la vanille et au miel, enveloppe la peau d'une texture soyeuse et d'un parfum gourmand."
-      },
-      {
-        "id": "gom4",
-        "pic": "/gom/gom (4).png",
-        "name": "Advanced Clinicals Vitamin C Brightening Body Oil",
-        "price": "25000",
-        "desc": "Huile corporelle éclat à la vitamine C, corrige les taches sombres et rend la peau lumineuse et unifiée."
-      },
-      {
-        "id": "gom5",
-        "pic": "/gom/gom (5).png",
-        "name": "Palmer's Coconut Oil Formula Brazilian Coco Firming Oil",
-        "price": "15000",
-        "desc": "Huile raffermissante à l'huile de coco brésilienne, tonifie et nourrit la peau pour un corps galbé et hydraté."
-      },
-      {
-        "id": "gom6",
-        "pic": "/gom/gom (6).png",
-        "name": "Palmer's Cocoa Butter Formula Shimmer Radiance Body Oil",
-        "price": "15000",
-        "desc": "Huile corps scintillante au beurre de cacao, illumine la peau d'une légère dorure pour un éclat glamour irrésistible."
-      },
-      {
-        "id": "gom7",
-        "pic": "/gom/gom (7).png",
-        "name": "Vaseline Cocoa Radiant Gel Oil",
-        "price": "15000",
-        "desc": "Gel-huile à la poudre de cacao Vaseline, absorption ultra-rapide pour une peau hydratée et lumineuse sans résidu gras."
-      },
-      {
-        "id": "gom8",
-        "pic": "/gom/gom (8).png",
-        "name": "Crémerie Strawberry Soufflé Smoothing Body Serum",
-        "price": "20000",
-        "desc": "Sérum corps lissant aux notes de fraise soufflée, affine la texture de la peau et la rend incroyablement douce."
-      },
-      {
-        "id": "gom9",
-        "pic": "/gom/gom (9).png",
-        "name": "Bodylab Science Vitamin C Complex+ Body Oil",
-        "price": "20000",
-        "desc": "Huile corps au complexe vitamine C+, combat les taches pigmentaires et révèle une peau plus lumineuse et unifiée."
-      },
-      {
-        "id": "gom10",
-        "pic": "/gom/gom (10).png",
-        "name": "Dr Teal's Shea Sugar Scrub (Lavender)",
-        "price": "20000",
-        "desc": "Gommage corps au sucre et au karité avec lavande apaisante, exfolie en douceur pour une peau veloutée et parfumée."
-      },
-      {
-        "id": "gom11",
-        "pic": "/gom/gom (11).png",
-        "name": "Collagen Body Scrub Clinical Works",
-        "price": "20000",
-        "desc": "Gommage corps au collagène, élimine les cellules mortes et stimule le renouvellement cutané pour une peau neuve et ferme."
-      }
+      { "id": "gom1", "pic": "/gom/gom (1).png", "name": "Dr Teal's Moisturizing Bath & Body Oil (Vanilla Comfort & Lavender)", "price": "18000", "desc": "Huile de bain et corps apaisante à la vanille et à la lavande, nourrit et adoucit la peau après chaque bain." },
+      { "id": "gom2", "pic": "/gom/gom (2).png", "name": "Palmer's Cocoa Butter Formula Moisturizes Softens Body Oil", "price": "13000", "desc": "Huile corps au beurre de cacao Palmer's, pénètre rapidement pour hydrater et adoucir la peau en profondeur." },
+      { "id": "gom3", "pic": "/gom/gom (3).png", "name": "Bliss Cloud 9 Nourishing Body Oil (Vanilla & Honey)", "price": "8000", "desc": "Huile corps nourrissante à la vanille et au miel, enveloppe la peau d'une texture soyeuse et d'un parfum gourmand." },
+      { "id": "gom4", "pic": "/gom/gom (4).png", "name": "Advanced Clinicals Vitamin C Brightening Body Oil", "price": "20000", "desc": "Huile corporelle éclat à la vitamine C, corrige les taches sombres et rend la peau lumineuse et unifiée." },
+      { "id": "gom5", "pic": "/gom/gom (5).png", "name": "Palmer's Coconut Oil Formula Brazilian Coco Firming Oil", "price": "13000", "desc": "Huile raffermissante à l'huile de coco brésilienne, tonifie et nourrit la peau pour un corps galbé et hydraté." },
+      { "id": "gom6", "pic": "/gom/gom (6).png", "name": "Palmer's Cocoa Butter Formula Shimmer Radiance Body Oil", "price": "13000", "desc": "Huile corps scintillante au beurre de cacao, illumine la peau d'une légère dorure pour un éclat glamour irrésistible." },
+      { "id": "gom7", "pic": "/gom/gom (7).png", "name": "Vaseline Cocoa Radiant Gel Oil", "price": "13000", "desc": "Gel-huile à la poudre de cacao Vaseline, absorption ultra-rapide pour une peau hydratée et lumineuse sans résidu gras." },
+      { "id": "gom8", "pic": "/gom/gom (8).png", "name": "Crémerie Strawberry Soufflé Smoothing Body Serum", "price": "18000", "desc": "Sérum corps lissant aux notes de fraise soufflée, affine la texture de la peau et la rend incroyablement douce." },
+      { "id": "gom9", "pic": "/gom/gom (9).png", "name": "Bodylab Science Vitamin C Complex+ Body Oil", "price": "18000", "desc": "Huile corps au complexe vitamine C+, combat les taches pigmentaires et révèle une peau plus lumineuse et unifiée." },
+      { "id": "gom10", "pic": "/gom/gom (10).png", "name": "Dr Teal's Shea Sugar Scrub (Lavender)", "price": "18000", "desc": "Gommage corps au sucre et au karité avec lavande apaisante, exfolie en douceur pour une peau veloutée et parfumée." },
+      { "id": "gom11", "pic": "/gom/gom (11).png", "name": "Collagen Body Scrub Clinical Works", "price": "18000", "desc": "Gommage corps au collagène, élimine les cellules mortes et stimule le renouvellement cutané pour une peau neuve et ferme." }
     ]
   },
   {
     "slug": "cheveux",
     "category": "Soins Cheveux",
     "products": [
-      {
-        "id": "hair1",
-        "pic": "/hair/hair (1).png",
-        "name": "OGX — Coconut Fine Curls / Argan Oil of Morocco / Rosemary Mint / Biotin & Collagen / Bond Protein Repair",
-        "price": "15000",
-        "desc": "Gamme de shampoings et soins OGX aux ingrédients naturels premium, pour des cheveux nourris, brillants et fortifiés."
-      },
-      {
-        "id": "hair2",
-        "pic": "/hair/hair (2).png",
-        "name": "MIELLE — Rosemary Mint Scalp & Edge Oil / Styling Crème / Strengthening Hair Masque",
-        "price": "15000",
-        "desc": "Gamme Mielle à la menthe et au romarin, stimule la croissance des cheveux et nourrit le cuir chevelu en profondeur."
-      },
-      {
-        "id": "hair3",
-        "pic": "/hair/hair (3).png",
-        "name": "GARNIER WHOLE BLENDS — Coconut Oil & Cocoa Butter / Honey Treasures Conditioner",
-        "price": "10000",
-        "desc": "Soins capillaires Garnier à l'huile de coco, beurre de cacao et miel, réparent et lissent les cheveux abîmés."
-      },
-      {
-        "id": "hair4",
-        "pic": "/hair/hair (4).png",
-        "name": "GARNIER FRUCTIS Pure Clean Detangler + Air Dry (Silicone-Free)",
-        "price": "10000",
-        "desc": "Démêlant sans silicone Garnier Fructis, facilite le coiffage naturel et réduit les frisottis sans alourdir les cheveux."
-      },
-      {
-        "id": "hair5",
-        "pic": "/hair/hair (5).png",
-        "name": "AUSSIE — Miracle Waves Shampoo / Total Miracle Conditioner",
-        "price": "15000",
-        "desc": "Duo shampoing et après-shampoing Aussie, nourrit et définit les vagues naturelles pour des boucles bouncy et brillantes."
-      },
-      {
-        "id": "hair6",
-        "pic": "/hair/hair (6).png",
-        "name": "GARNIER FRUCTIS — Sleek & Shine Smoothing Shampoo & Conditioner",
-        "price": "20000",
-        "desc": "Duo lissant Garnier Fructis à l'huile d'argan du Maroc, dompte les frisottis et apporte brillance et douceur."
-      },
-      {
-        "id": "hair7",
-        "pic": "/hair/hair (7).png",
-        "name": "SPANISH GARDEN Strengthening Onion Shampoo",
-        "price": "20000",
-        "desc": "Shampoing fortifiant à l'extrait d'oignon, riche en soufre pour réduire la chute des cheveux et stimuler leur pousse."
-      },
-      {
-        "id": "hair8",
-        "pic": "/hair/hair (8).png",
-        "name": "OGX Renewing + Argan Oil of Morocco Conditioner",
-        "price": "15000",
-        "desc": "Après-shampoing à l'huile d'argan du Maroc OGX, lisse, hydrate et apporte une brillance miroir aux cheveux ternes."
-      },
-      {
-        "id": "hair9",
-        "pic": "/hair/hair (9).png",
-        "name": "BCBGENERATION Biotin & Collagen Conditioner Pro Growth",
-        "price": "20000",
-        "desc": "Après-shampoing à la biotine et au collagène, renforce la fibre capillaire et favorise une croissance saine et rapide."
-      },
-      {
-        "id": "hair10",
-        "pic": "/hair/hair (10).png",
-        "name": "DOVE Intensive Repair Damage Therapy Conditioner",
-        "price": "10000",
-        "desc": "Après-shampoing réparateur intensif Dove, reconstruit les cheveux abîmés par la chaleur et les colorations chimiques."
-      }
+      { "id": "hair1", "pic": "/hair/hair (1).png", "name": "OGX — Coconut Fine Curls / Argan Oil of Morocco / Rosemary Mint / Biotin & Collagen / Bond Protein Repair", "price": "13000", "desc": "Gamme de shampoings et soins OGX aux ingrédients naturels premium, pour des cheveux nourris, brillants et fortifiés." },
+      { "id": "hair2", "pic": "/hair/hair (2).png", "name": "MIELLE — Rosemary Mint Scalp & Edge Oil / Styling Crème / Strengthening Hair Masque", "price": "13000", "desc": "Gamme Mielle à la menthe et au romarin, stimule la croissance des cheveux et nourrit le cuir chevelu en profondeur." },
+      { "id": "hair3", "pic": "/hair/hair (3).png", "name": "GARNIER WHOLE BLENDS — Coconut Oil & Cocoa Butter / Honey Treasures Conditioner", "price": "8000", "desc": "Soins capillaires Garnier à l'huile de coco, beurre de cacao et miel, réparent et lissent les cheveux abîmés." },
+      { "id": "hair4", "pic": "/hair/hair (4).png", "name": "GARNIER FRUCTIS Pure Clean Detangler + Air Dry (Silicone-Free)", "price": "8000", "desc": "Démêlant sans silicone Garnier Fructis, facilite le coiffage naturel et réduit les frisottis sans alourdir les cheveux." },
+      { "id": "hair5", "pic": "/hair/hair (5).png", "name": "AUSSIE — Miracle Waves Shampoo / Total Miracle Conditioner", "price": "13000", "desc": "Duo shampoing et après-shampoing Aussie, nourrit et définit les vagues naturelles pour des boucles bouncy et brillantes." },
+      { "id": "hair6", "pic": "/hair/hair (6).png", "name": "GARNIER FRUCTIS — Sleek & Shine Smoothing Shampoo & Conditioner", "price": "18000", "desc": "Duo lissant Garnier Fructis à l'huile d'argan du Maroc, dompte les frisottis et apporte brillance et douceur." },
+      { "id": "hair7", "pic": "/hair/hair (7).png", "name": "SPANISH GARDEN Strengthening Onion Shampoo", "price": "18000", "desc": "Shampoing fortifiant à l'extrait d'oignon, riche en soufre pour réduire la chute des cheveux et stimuler leur pousse." },
+      { "id": "hair8", "pic": "/hair/hair (8).png", "name": "OGX Renewing + Argan Oil of Morocco Conditioner", "price": "13000", "desc": "Après-shampoing à l'huile d'argan du Maroc OGX, lisse, hydrate et apporte une brillance miroir aux cheveux ternes." },
+      { "id": "hair9", "pic": "/hair/hair (9).png", "name": "BCBGENERATION Biotin & Collagen Conditioner Pro Growth", "price": "18000", "desc": "Après-shampoing à la biotine et au collagène, renforce la fibre capillaire et favorise une croissance saine et rapide." },
+      { "id": "hair10", "pic": "/hair/hair (10).png", "name": "DOVE Intensive Repair Damage Therapy Conditioner", "price": "8000", "desc": "Après-shampoing réparateur intensif Dove, reconstruit les cheveux abîmés par la chaleur et les colorations chimiques." }
     ]
   },
   {
     "slug": "soins-intimes-bucco",
     "category": "Soins Intimes & Bucco-Dentaires",
     "products": [
-      {
-        "id": "care1",
-        "pic": "/care/care (1).png",
-        "name": "Vagisil pH Balance — Daily Intimate Wash (Advanced Probiotic Technology)",
-        "price": "15000",
-        "desc": "Soin intime quotidien aux probiotiques avancés, maintient l'équilibre naturel du pH pour un confort féminin optimal."
-      },
-      {
-        "id": "care2",
-        "pic": "/care/care (2).png",
-        "name": "Vagisil Odor Block — Daily Intimate Wash (Up to 24 Hour Odor Protection)",
-        "price": "15000",
-        "desc": "Soin intime Vagisil avec protection anti-odeurs jusqu'à 24h, pour une fraîcheur et une confiance toute la journée."
-      },
-      {
-        "id": "care3",
-        "pic": "/care/care (3).png",
-        "name": "Summer's Eve Cleansing Wash Lot de 3 (Morning Paradise, Delicate Blossom, Amber Nights)",
-        "price": "15000",
-        "desc": "Trio de soins intimes Summer's Eve aux fragrances féminines délicates, pour une hygiène intime douce et parfumée."
-      },
-      {
-        "id": "care4",
-        "pic": "/care/care (4).png",
-        "name": "Summer's Eve Simply Sensitive — Gentle Value Pack (2x Wash & 1x Cloth)",
-        "price": "15000",
-        "desc": "Pack complet d'hygiène intime pour peaux sensibles, nettoie et protège en douceur sans parfum ni irritation."
-      },
-      {
-        "id": "care5",
-        "pic": "/care/care (5).png",
-        "name": "Guru Nanda — Duo Pack : Oil Pulling Oral Rinse + Breath Harmonizer",
-        "price": "20000",
-        "desc": "Duo de soins bucco-dentaires naturels, purifie la bouche par l'oil pulling et harmonise l'haleine en profondeur."
-      },
-      {
-        "id": "care6",
-        "pic": "/care/care (6).png",
-        "name": "Crest Pro-Health Advanced Complete Care — Alcohol Free Mouthwash (Clean Mint)",
-        "price": "10000",
-        "desc": "Bain de bouche sans alcool Crest, soin complet qui protège les gencives et rafraîchit l'haleine sans agresser la muqueuse."
-      },
-      {
-        "id": "care7",
-        "pic": "/care/care (7).png",
-        "name": "Crest 3D White Diamond Strong — Whitening Mouthwash (Arctic Fresh)",
-        "price": "20000",
-        "desc": "Bain de bouche blanchissant Crest 3D, renforce l'émail et élimine les taches pour un sourire plus blanc et brillant."
-      },
-      {
-        "id": "care8",
-        "pic": "/care/care (8).png",
-        "name": "Tom's of Maine Wicked Fresh! — Natural Fluoride-Free Mouthwash (Cool Mountain Mint)",
-        "price": "20000",
-        "desc": "Bain de bouche naturel sans fluorure à la menthe des montagnes, rafraîchit l'haleine avec des ingrédients purs."
-      },
-      {
-        "id": "care9",
-        "pic": "/care/care (9).png",
-        "name": "Hello Empower-Mint — Anti-gingivitis / Anti-plaque Mouthwash (Peppermint Pow)",
-        "price": "20000",
-        "desc": "Bain de bouche anti-gingivite et anti-plaque à la menthe poivrée, protège les gencives et assainit la cavité buccale."
-      },
-      {
-        "id": "care10",
-        "pic": "/care/care (10).png",
-        "name": "TheraBreath Dry Mouth Oral Rinse — Dentist Formulated (Tingling Mint)",
-        "price": "20000",
-        "desc": "Bain de bouche anti-sécheresse buccale formulé par des dentistes, soulage l'inconfort et prévient la mauvaise haleine."
-      },
-      {
-        "id": "care11",
-        "pic": "/care/care (11).png",
-        "name": "Colgate 2 in 1 Liquid Gel (Toothpaste & Mouthwash) — Icy Blast Whitening",
-        "price": "20000",
-        "desc": "Gel dentifrice et bain de bouche 2-en-1 Colgate, blanchit les dents et rafraîchit l'haleine en une seule étape."
-      },
-      {
-        "id": "care12",
-        "pic": "/care/care (12).png",
-        "name": "Lumineux Enamel Safe Whitening Toothpaste",
-        "price": "20000",
-        "desc": "Dentifrice blanchissant certifié respectueux de l'émail, éclat le sourire sans endommager la surface dentaire."
-      },
-      {
-        "id": "care13",
-        "pic": "/care/care (13).png",
-        "name": "Dr. Bronner's Peppermint All-One Toothpaste (Fluoride-Free)",
-        "price": "10000",
-        "desc": "Dentifrice naturel sans fluorure à la menthe poivrée, nettoie et reminéralise les dents avec des ingrédients biologiques."
-      },
-      {
-        "id": "care14",
-        "pic": "/care/care (14).png",
-        "name": "Himalaya Botanique Whitening Complete Care Toothpaste (Simply Mint)",
-        "price": "10000",
-        "desc": "Dentifrice botanique blanchissant à la menthe, prend soin des dents et des gencives grâce à des plantes actives."
-      },
-      {
-        "id": "care15",
-        "pic": "/care/care (15).png",
-        "name": "Arm & Hammer Complete Care Whole Mouth Protection (Ultra Smooth Formula)",
-        "price": "5000",
-        "desc": "Dentifrice au bicarbonate de soude, formule ultra-douce pour une protection complète de la bouche et un blanchiment naturel."
-      },
-      {
-        "id": "care16",
-        "pic": "/care/care (16).png",
-        "name": "Colgate Visible White Daily Anticavity Fluoride Toothpaste",
-        "price": "5000",
-        "desc": "Dentifrice quotidien Colgate anti-caries au fluorure, protège et blanchit les dents pour un sourire visible plus blanc."
-      }
+      { "id": "care1", "pic": "/care/care (1).png", "name": "Vagisil pH Balance — Daily Intimate Wash (Advanced Probiotic Technology)", "price": "13000", "desc": "Soin intime quotidien aux probiotiques avancés, maintient l'équilibre naturel du pH pour un confort féminin optimal." },
+      { "id": "care2", "pic": "/care/care (2).png", "name": "Vagisil Odor Block — Daily Intimate Wash (Up to 24 Hour Odor Protection)", "price": "13000", "desc": "Soin intime Vagisil avec protection anti-odeurs jusqu'à 24h, pour une fraîcheur et une confiance toute la journée." },
+      { "id": "care3", "pic": "/care/care (3).png", "name": "Summer's Eve Cleansing Wash Lot de 3 (Morning Paradise, Delicate Blossom, Amber Nights)", "price": "13000", "desc": "Trio de soins intimes Summer's Eve aux fragrances féminines délicates, pour une hygiène intime douce et parfumée." },
+      { "id": "care4", "pic": "/care/care (4).png", "name": "Summer's Eve Simply Sensitive — Gentle Value Pack (2x Wash & 1x Cloth)", "price": "13000", "desc": "Pack complet d'hygiène intime pour peaux sensibles, nettoie et protège en douceur sans parfum ni irritation." },
+      { "id": "care5", "pic": "/care/care (5).png", "name": "Guru Nanda — Duo Pack : Oil Pulling Oral Rinse + Breath Harmonizer", "price": "18000", "desc": "Duo de soins bucco-dentaires naturels, purifie la bouche par l'oil pulling et harmonise l'haleine en profondeur." },
+      { "id": "care6", "pic": "/care/care (6).png", "name": "Crest Pro-Health Advanced Complete Care — Alcohol Free Mouthwash (Clean Mint)", "price": "8000", "desc": "Bain de bouche sans alcool Crest, soin complet qui protège les gencives et rafraîchit l'haleine sans agresser la muqueuse." },
+      { "id": "care7", "pic": "/care/care (7).png", "name": "Crest 3D White Diamond Strong — Whitening Mouthwash (Arctic Fresh)", "price": "18000", "desc": "Bain de bouche blanchissant Crest 3D, renforce l'émail et élimine les taches pour un sourire plus blanc et brillant." },
+      { "id": "care8", "pic": "/care/care (8).png", "name": "Tom's of Maine Wicked Fresh! — Natural Fluoride-Free Mouthwash (Cool Mountain Mint)", "price": "18000", "desc": "Bain de bouche naturel sans fluorure à la menthe des montagnes, rafraîchit l'haleine avec des ingrédients purs." },
+      { "id": "care9", "pic": "/care/care (9).png", "name": "Hello Empower-Mint — Anti-gingivitis / Anti-plaque Mouthwash (Peppermint Pow)", "price": "18000", "desc": "Bain de bouche anti-gingivite et anti-plaque à la menthe poivrée, protège les gencives et assainit la cavité buccale." },
+      { "id": "care10", "pic": "/care/care (10).png", "name": "TheraBreath Dry Mouth Oral Rinse — Dentist Formulated (Tingling Mint)", "price": "18000", "desc": "Bain de bouche anti-sécheresse buccale formulé par des dentistes, soulage l'inconfort et prévient la mauvaise haleine." },
+      { "id": "care11", "pic": "/care/care (11).png", "name": "Colgate 2 in 1 Liquid Gel (Toothpaste & Mouthwash) — Icy Blast Whitening", "price": "18000", "desc": "Gel dentifrice et bain de bouche 2-en-1 Colgate, blanchit les dents et rafraîchit l'haleine en une seule étape." },
+      { "id": "care12", "pic": "/care/care (12).png", "name": "Lumineux Enamel Safe Whitening Toothpaste", "price": "18000", "desc": "Dentifrice blanchissant certifié respectueux de l'émail, éclat le sourire sans endommager la surface dentaire." },
+      { "id": "care13", "pic": "/care/care (13).png", "name": "Dr. Bronner's Peppermint All-One Toothpaste (Fluoride-Free)", "price": "8000", "desc": "Dentifrice naturel sans fluorure à la menthe poivrée, nettoie et reminéralise les dents avec des ingrédients biologiques." },
+      { "id": "care14", "pic": "/care/care (14).png", "name": "Himalaya Botanique Whitening Complete Care Toothpaste (Simply Mint)", "price": "8000", "desc": "Dentifrice botanique blanchissant à la menthe, prend soin des dents et des gencives grâce à des plantes actives." },
+      { "id": "care15", "pic": "/care/care (15).png", "name": "Arm & Hammer Complete Care Whole Mouth Protection (Ultra Smooth Formula)", "price": "5000", "desc": "Dentifrice au bicarbonate de soude, formule ultra-douce pour une protection complète de la bouche et un blanchiment naturel." },
+      { "id": "care16", "pic": "/care/care (16).png", "name": "Colgate Visible White Daily Anticavity Fluoride Toothpaste", "price": "5000", "desc": "Dentifrice quotidien Colgate anti-caries au fluorure, protège et blanchit les dents pour un sourire visible plus blanc." }
     ]
   },
   {
     "slug": "autres",
     "category": "Parfums, Déodorants & Accessoires",
     "products": [
-      {
-        "id": "ot1",
-        "pic": "/others/oth (1).png",
-        "name": "Natural King Hair & Beard Oil — Pro-Growth",
-        "price": "20000",
-        "desc": "Huile pour cheveux et barbe stimulante à la croissance, nourrit et assouplit les poils pour un style soigné et sain."
-      },
-      {
-        "id": "ot2",
-        "pic": "/others/oth (2).png",
-        "name": "Just For Men — Shampoo-In Color & Mustache & Beard (Jet Black)",
-        "price": "15000",
-        "desc": "Coloration shampoing pour cheveux, moustache et barbe Just For Men, couvre les cheveux blancs en 5 minutes chrono."
-      },
-      {
-        "id": "ot3",
-        "pic": "/others/oth (3).png",
-        "name": "Guess Sexy Skin — Sweet Sugar Fragrance Mist",
-        "price": "15000",
-        "desc": "Brume corporelle Guess aux notes sucrées et sensuelles, enveloppe la peau d'un voile parfumé irrésistible toute la journée."
-      },
-      {
-        "id": "ot4",
-        "pic": "/others/oth (4).png",
-        "name": "Victoria's Secret VSX — Clementine Hibiscus Hair & Body Mist",
-        "price": "15000",
-        "desc": "Brume cheveux et corps à la clémentine et à l'hibiscus, rafraîchit et parfume délicatement à chaque vaporisation."
-      },
-      {
-        "id": "ot5",
-        "pic": "/others/oth (5).png",
-        "name": "Bath & Body Works — Warm Vanilla Sugar Fine Fragrance Mist",
-        "price": "15000",
-        "desc": "Brume parfumée Bath & Body Works à la vanille sucrée chaude, enveloppante et addictive pour une peau gourmande."
-      },
-      {
-        "id": "ot6",
-        "pic": "/others/oth (6).png",
-        "name": "Bath & Body Works — In The Stars Fine Fragrance Mist",
-        "price": "15000",
-        "desc": "Brume fine parfumée aux notes stellaires de fleur de cerisier et musc blanc pour une fragrance rêveuse et féminine."
-      },
-      {
-        "id": "ot7",
-        "pic": "/others/oth (7).png",
-        "name": "Victoria's Secret — Midnight Bloom Fragrance Mist",
-        "price": "15000",
-        "desc": "Brume parfumée Victoria's Secret aux fleurs nocturnes, mystérieuse et envoûtante pour une soirée inoubliable."
-      },
-      {
-        "id": "ot8",
-        "pic": "/others/oth (8).png",
-        "name": "Suave Tropical Paradise Deodorant & Mitchum Women Shower Fresh Antiperspirant",
-        "price": "5000",
-        "desc": "Duo déodorant-antitranspirant tropical et frais, offre une protection longue durée contre la transpiration et les odeurs."
-      },
-      {
-        "id": "ot9",
-        "pic": "/others/oth (9).png",
-        "name": "It Girl Juices — Watermelon Twist & Guava Twist Eau de Parfum",
-        "price": "10000",
-        "desc": "Duo d'eaux de parfum fruitées et pétillantes à la pastèque et à la goyave, légères et idéales pour l'été."
-      },
-      {
-        "id": "ot10",
-        "pic": "/others/oth (10).png",
-        "name": "Nectar Splash Hair and Body Mist",
-        "price": "10000",
-        "desc": "Brume cheveux et corps aux notes fruitées et fleuries, parfume et hydrate en même temps pour un effet tout-en-un."
-      },
-      {
-        "id": "ot11",
-        "pic": "/others/oth (11).png",
-        "name": "Maison Margiela — REPLICA « Jazz Club » (Refill Set)",
-        "price": "25000",
-        "desc": "Coffret recharge du célèbre parfum Jazz Club de Maison Margiela, notes boisées et fumées pour un sillage sophistiqué."
-      },
-      {
-        "id": "ot12",
-        "pic": "/others/oth (12).png",
-        "name": "So Very Sexy (Inspiration Victoria's Secret « Eau So Sexy »)",
-        "price": "25000",
-        "desc": "Fragrance inspirée de l'iconique Eau So Sexy de Victoria's Secret, florale et sensuelle pour une féminité affirmée."
-      },
-      {
-        "id": "ot13",
-        "pic": "/others/oth (13).png",
-        "name": "EOS — Crème de Pistache / Pomegranate Raspberry / Vanilla Cashmere / Strawberry Dream",
-        "price": "15000",
-        "desc": "Baumes à lèvres EOS ultra-hydratants aux saveurs gourmandes, adoucissent et protègent les lèvres toute la journée."
-      },
-      {
-        "id": "ot14",
-        "pic": "/others/oth (14).png",
-        "name": "Solo en Ibiza — Barcelona Bliss (Coffret)",
-        "price": "20000",
-        "desc": "Coffret parfum Solo en Ibiza Barcelona Bliss, une fragrance ensoleillée évoquant les soirées méditerranéennes estivales."
-      },
-      {
-        "id": "ot15",
-        "pic": "/others/oth (15).png",
-        "name": "Marc Jacobs — Daisy Wild & Daisy (Duo de Miniatures)",
-        "price": "25000",
-        "desc": "Duo de miniatures Marc Jacobs Daisy, florales et fraîches, parfaites pour découvrir ou offrir ces iconiques fragrances."
-      },
-      {
-        "id": "ot16",
-        "pic": "/others/oth (16).png",
-        "name": "Beverly Hills Polo Club — Women's Collection",
-        "price": "",
-        "desc": "Collection de fragrances féminines Beverly Hills Polo Club, élégantes et accessibles pour une touche de luxe quotidien."
-      },
-      {
-        "id": "ot17",
-        "pic": "/others/oth (17).png",
-        "name": "DAISE* — Brumes & Déodorants « Lowkey » (Rose & Sandalwood) et « Sunny » (Vanilla & Coconut)",
-        "price": "10000",
-        "desc": "Duo de brumes déodorantes DAISE* aux fragrances nature, prolongent la fraîcheur et parfument subtilement tout au long de la journée."
-      },
-      {
-        "id": "ot18",
-        "pic": "/others/oth (18).png",
-        "name": "CALA Plush Head & Wristband Set",
-        "price": "",
-        "desc": "Set bandeau et poignets en peluche douce CALA, parfait pour maintenir les cheveux pendant le maquillage ou les soins."
-      },
-      {
-        "id": "ot19",
-        "pic": "/others/oth (19).png",
-        "name": "Beauty Concepts — Manicure Collection",
-        "price": "10000",
-        "desc": "Collection manucure Beauty Concepts avec tous les outils essentiels pour prendre soin de ses ongles à la maison."
-      },
-      {
-        "id": "ot20",
-        "pic": "/others/oth (20).png",
-        "name": "Nicole Miller New York — Lip Gloss Collection",
-        "price": "20000",
-        "desc": "Collection de gloss à lèvres Nicole Miller, brillants et confortables, pour des lèvres pulpeuses et stylées à tout moment."
-      },
-      {
-        "id": "ot21",
-        "pic": "/others/oth (21).png",
-        "name": "Coffret Gloss à Lèvres « Maison Festive »",
-        "price": "20000",
-        "desc": "Coffret gloss festif aux teintes variées, idéal pour les fêtes ou à offrir en cadeau gourmand et glamour."
-      }
+      { "id": "ot1", "pic": "/others/oth (1).png", "name": "Natural King Hair & Beard Oil — Pro-Growth", "price": "18000", "desc": "Huile pour cheveux et barbe stimulante à la croissance, nourrit et assouplit les poils pour un style soigné et sain." },
+      { "id": "ot2", "pic": "/others/oth (2).png", "name": "Just For Men — Shampoo-In Color & Mustache & Beard (Jet Black)", "price": "13000", "desc": "Coloration shampoing pour cheveux, moustache et barbe Just For Men, couvre les cheveux blancs en 5 minutes chrono." },
+      { "id": "ot3", "pic": "/others/oth (3).png", "name": "Guess Sexy Skin — Sweet Sugar Fragrance Mist", "price": "13000", "desc": "Brume corporelle Guess aux notes sucrées et sensuelles, enveloppe la peau d'un voile parfumé irrésistible toute la journée." },
+      { "id": "ot4", "pic": "/others/oth (4).png", "name": "Victoria's Secret VSX — Clementine Hibiscus Hair & Body Mist", "price": "13000", "desc": "Brume cheveux et corps à la clémentine et à l'hibiscus, rafraîchit et parfume délicatement à chaque vaporisation." },
+      { "id": "ot5", "pic": "/others/oth (5).png", "name": "Bath & Body Works — Warm Vanilla Sugar Fine Fragrance Mist", "price": "13000", "desc": "Brume parfumée Bath & Body Works à la vanille sucrée chaude, enveloppante et addictive pour une peau gourmande." },
+      { "id": "ot6", "pic": "/others/oth (6).png", "name": "Bath & Body Works — In The Stars Fine Fragrance Mist", "price": "13000", "desc": "Brume fine parfumée aux notes stellaires de fleur de cerisier et musc blanc pour une fragrance rêveuse et féminine." },
+      { "id": "ot7", "pic": "/others/oth (7).png", "name": "Victoria's Secret — Midnight Bloom Fragrance Mist", "price": "13000", "desc": "Brume parfumée Victoria's Secret aux fleurs nocturnes, mystérieuse et envoûtante pour une soirée inoubliable." },
+      { "id": "ot8", "pic": "/others/oth (8).png", "name": "Suave Tropical Paradise Deodorant & Mitchum Women Shower Fresh Antiperspirant", "price": "5000", "desc": "Duo déodorant-antitranspirant tropical et frais, offre une protection longue durée contre la transpiration et les odeurs." },
+      { "id": "ot9", "pic": "/others/oth (9).png", "name": "It Girl Juices — Watermelon Twist & Guava Twist Eau de Parfum", "price": "8000", "desc": "Duo d'eaux de parfum fruitées et pétillantes à la pastèque et à la goyave, légères et idéales pour l'été." },
+      { "id": "ot10", "pic": "/others/oth (10).png", "name": "Nectar Splash Hair and Body Mist", "price": "8000", "desc": "Brume cheveux et corps aux notes fruitées et fleuries, parfume et hydrate en même temps pour un effet tout-en-un." },
+      { "id": "ot11", "pic": "/others/oth (11).png", "name": "Maison Margiela — REPLICA « Jazz Club » (Refill Set)", "price": "20000", "desc": "Coffret recharge du célèbre parfum Jazz Club de Maison Margiela, notes boisées et fumées pour un sillage sophistiqué." },
+      { "id": "ot12", "pic": "/others/oth (12).png", "name": "So Very Sexy (Inspiration Victoria's Secret « Eau So Sexy »)", "price": "20000", "desc": "Fragrance inspirée de l'iconique Eau So Sexy de Victoria's Secret, florale et sensuelle pour une féminité affirmée." },
+      { "id": "ot13", "pic": "/others/oth (13).png", "name": "EOS — Crème de Pistache / Pomegranate Raspberry / Vanilla Cashmere / Strawberry Dream", "price": "13000", "desc": "Baumes à lèvres EOS ultra-hydratants aux saveurs gourmandes, adoucissent et protègent les lèvres toute la journée." },
+      { "id": "ot14", "pic": "/others/oth (14).png", "name": "Solo en Ibiza — Barcelona Bliss (Coffret)", "price": "18000", "desc": "Coffret parfum Solo en Ibiza Barcelona Bliss, une fragrance ensoleillée évoquant les soirées méditerranéennes estivales." },
+      { "id": "ot15", "pic": "/others/oth (15).png", "name": "Marc Jacobs — Daisy Wild & Daisy (Duo de Miniatures)", "price": "20000", "desc": "Duo de miniatures Marc Jacobs Daisy, florales et fraîches, parfaites pour découvrir ou offrir ces iconiques fragrances." },
+      { "id": "ot16", "pic": "/others/oth (16).png", "name": "Beverly Hills Polo Club — Women's Collection", "price": "", "desc": "Collection de fragrances féminines Beverly Hills Polo Club, élégantes et accessibles pour une touche de luxe quotidien." },
+      { "id": "ot17", "pic": "/others/oth (17).png", "name": "DAISE* — Brumes & Déodorants « Lowkey » (Rose & Sandalwood) et « Sunny » (Vanilla & Coconut)", "price": "8000", "desc": "Duo de brumes déodorantes DAISE* aux fragrances nature, prolongent la fraîcheur et parfument subtilement tout au long de la journée." },
+      { "id": "ot18", "pic": "/others/oth (18).png", "name": "CALA Plush Head & Wristband Set", "price": "", "desc": "Set bandeau et poignets en peluche douce CALA, parfait pour maintenir les cheveux pendant le maquillage ou les soins." },
+      { "id": "ot19", "pic": "/others/oth (19).png", "name": "Beauty Concepts — Manicure Collection", "price": "8000", "desc": "Collection manucure Beauty Concepts avec tous les outils essentiels pour prendre soin de ses ongles à la maison." },
+      { "id": "ot20", "pic": "/others/oth (20).png", "name": "Nicole Miller New York — Lip Gloss Collection", "price": "18000", "desc": "Collection de gloss à lèvres Nicole Miller, brillants et confortables, pour des lèvres pulpeuses et stylées à tout moment." },
+      { "id": "ot21", "pic": "/others/oth (21).png", "name": "Coffret Gloss à Lèvres « Maison Festive »", "price": "18000", "desc": "Coffret gloss festif aux teintes variées, idéal pour les fêtes ou à offrir en cadeau gourmand et glamour." }
     ]
   },
   {
     "slug": "vitamines",
     "category": "Vitamines & Compléments",
     "products": [
-      {
-        "id": "vit1",
-        "pic": "/vita/vit (1).png",
-        "name": "One A Day — Women's Multi (Tablets) / VitaCraves Teen for Her (Gummies) / Women's Multi Gummy",
-        "price": "35000",
-        "desc": "Multivitamines pour femmes en comprimés ou gummies, couvrent les besoins nutritionnels quotidiens pour une santé optimale."
-      },
-      {
-        "id": "vit2",
-        "pic": "/vita/vit (2).png",
-        "name": "Kirkland Signature — Adult Multivitamin Gummies",
-        "price": "35000",
-        "desc": "Multivitamines adultes en gummies Kirkland, formule complète et délicieuse pour combler les carences au quotidien."
-      },
-      {
-        "id": "vit3",
-        "pic": "/vita/vit (3).png",
-        "name": "Nature Made — Vitamin C Gummies (250 mg)",
-        "price": "35000",
-        "desc": "Gummies à la vitamine C 250mg Nature Made, renforcent le système immunitaire et protègent les cellules du stress oxydatif."
-      },
-      {
-        "id": "vit4",
-        "pic": "/vita/vit (4).png",
-        "name": "One A Day — Men's 50+ Multi (Tablets)",
-        "price": "35000",
-        "desc": "Multivitamines spécialement formulées pour les hommes de 50 ans et plus, soutiennent le cœur, les yeux et la prostate."
-      },
-      {
-        "id": "vit5",
-        "pic": "/vita/vit (5).png",
-        "name": "MaryRuth's — 3-in-1 Daily Women's Health (Capsules) & Magnesium Calm Gummies",
-        "price": "35000",
-        "desc": "Duo santé féminine MaryRuth's : capsules 3-en-1 et gummies au magnésium pour équilibrer le corps et l'esprit."
-      },
-      {
-        "id": "vit6",
-        "pic": "/vita/vit (6).png",
-        "name": "Wellness Garden — Turmeric with Ginger (550 mg)",
-        "price": "45000",
-        "desc": "Complément au curcuma et au gingembre, puissants anti-inflammatoires naturels pour soutenir articulations et digestion."
-      },
-      {
-        "id": "vit7",
-        "pic": "/vita/vit (7).png",
-        "name": "Nature's Truth — Ultra Hair, Skin & Nails plus Biotin",
-        "price": "35000",
-        "desc": "Complément beauté à la biotine, renforce les cheveux, améliore l'éclat de la peau et prévient la fragilité des ongles."
-      },
-      {
-        "id": "vit8",
-        "pic": "/vita/vit (8).png",
-        "name": "Nature's Bounty — Fish Oil (1200 mg) & Magnesium (500 mg)",
-        "price": "35000",
-        "desc": "Duo huile de poisson et magnésium, soutiennent le cœur, le cerveau, les muscles et réduisent la fatigue chronique."
-      },
-      {
-        "id": "vit9",
-        "pic": "/vita/vit (9).png",
-        "name": "AbCuts CLA Belly Fat Formula",
-        "price": "35000",
-        "desc": "Complément à l'acide linoléique conjugué (CLA), aide à réduire la graisse abdominale et à maintenir la masse musculaire."
-      },
-      {
-        "id": "vit10",
-        "pic": "/vita/vit (10).png",
-        "name": "Wellness Garden — Turmeric with Ginger (550 mg)",
-        "price": "35000",
-        "desc": "Formule curcuma-gingembre 550mg, soutient l'immunité et réduit l'inflammation pour un bien-être général au quotidien."
-      },
-      {
-        "id": "vit11",
-        "pic": "/vita/vit (11).png",
-        "name": "Qunol Turmeric Curcumin Complex + Ginger (550 mg)",
-        "price": "45000",
-        "desc": "Complexe curcumine ultra-absorbable et gingembre, formule avancée pour une action anti-inflammatoire maximale."
-      },
-      {
-        "id": "vit12",
-        "pic": "/vita/vit(12).png",
-        "name": "Pepto Bismol (Bismuth Subsalicylate)",
-        "price": "18000",
-        "desc": "Médicament antiacide et antidiarrhéique classique, soulage rapidement les troubles digestifs et les maux d'estomac."
-      },
-      {
-        "id": "vit13",
-        "pic": "/vita/vit(13).png",
-        "name": "Kirkland Signature Adult Gummies Vitamin C (250 mg)",
-        "price": "35000",
-        "desc": "Gummies vitamine C adultes Kirkland, goût fruité et pratiques pour renforcer les défenses immunitaires chaque jour."
-      },
-      {
-        "id": "vit14",
-        "pic": "/vita/vit(14).png",
-        "name": "Berkley Jensen Vitamin C with Rose Hips (1000 mg)",
-        "price": "45000",
-        "desc": "Vitamine C haute dose 1000mg avec cynorrhodon, puissant antioxydant pour booster l'immunité et la vitalité."
-      },
-      {
-        "id": "vit15",
-        "pic": "/vita/vit(15).png",
-        "name": "Nature's Bounty Hair, Skin & Nails Gummies",
-        "price": "25000",
-        "desc": "Gummies beauté Nature's Bounty aux vitamines et biotine, nourrissent les cheveux, la peau et les ongles de l'intérieur."
-      },
-      {
-        "id": "vit16",
-        "pic": "/vita/vit(16).png",
-        "name": "Force Factor Kids Super Chews (Superfoods & Immunity)",
-        "price": "25000",
-        "desc": "Compléments pour enfants aux superaliments, renforcent les défenses immunitaires et soutiennent la croissance saine."
-      },
-      {
-        "id": "vit17",
-        "pic": "/vita/vit(17).png",
-        "name": "Force Factor Total Beets Blood Pressure Support",
-        "price": "35000",
-        "desc": "Complément à la betterave, aide à réguler la tension artérielle et améliore la circulation sanguine naturellement."
-      },
-      {
-        "id": "vit18",
-        "pic": "/vita/vit(18).png",
-        "name": "Force Factor Ultimate Magnesium Glycinate & Citrate (330 mg)",
-        "price": "35000",
-        "desc": "Magnésium ultra-assimilable en double forme glycinate et citrate, favorise la détente musculaire et un sommeil réparateur."
-      },
-      {
-        "id": "vit19",
-        "pic": "/vita/vit(19).png",
-        "name": "Force Factor Better Turmeric (Extra-Strength Curcumin)",
-        "price": "35000",
-        "desc": "Curcumine extra-forte Force Factor à haute biodisponibilité, pour une action anti-inflammatoire et antioxydante renforcée."
-      },
-      {
-        "id": "vit20",
-        "pic": "/vita/vit(20).png",
-        "name": "Goli Nutrition Apple Cider Vinegar+ & Extra Strength Sleep",
-        "price": "35000",
-        "desc": "Duo Goli : gummies au vinaigre de cidre pour la digestion et la mélatonine renforcée pour un sommeil profond et naturel."
-      },
-      {
-        "id": "vit21",
-        "pic": "/vita/vit(21).png",
-        "name": "Goli Nutrition — Women's Complete Multi Gummies & Dreamy Sleep Gummies",
-        "price": "35000",
-        "desc": "Duo Goli pour femmes : multivitamines complètes et gummies sommeil rêveur pour équilibrer corps et esprit au quotidien."
-      },
-      {
-        "id": "vit22",
-        "pic": "/vita/vit(22).png",
-        "name": "MaryRuth's — Liquid Nighttime Multimineral (Coconut Dream)",
-        "price": "35000",
-        "desc": "Multiminéral liquide nocturne à la noix de coco, se prend avant le coucher pour une absorption maximale des minéraux."
-      },
-      {
-        "id": "vit23",
-        "pic": "/vita/vit(23).png",
-        "name": "MaryRuth's — Vegan Liquid Iron / Liquid Morning Multivitamin / Liquid Morning Multivitamin + Hair Growth",
-        "price": "35000",
-        "desc": "Gamme liquide MaryRuth's vegan : fer, multivitamines du matin et complexe croissance des cheveux pour une routine complète."
-      },
-      {
-        "id": "vit24",
-        "pic": "/vita/vit(24).png",
-        "name": "NeoCell — Collagen Beauty Builder (Caplets) & Grassfed Collagen Peptides (Powder)",
-        "price": "40000",
-        "desc": "Duo collagène NeoCell en gélules et poudre non aromatisée, soutient la beauté de la peau, des cheveux et des ongles."
-      },
-      {
-        "id": "vit25",
-        "pic": "/vita/vit(25).png",
-        "name": "Qunol — Turmeric 1500mg (95% Curcuminoids)",
-        "price": "35000",
-        "desc": "Curcuma haute dose Qunol avec 95% de curcuminoïdes actifs, formule leader pour soulager l'inflammation articulaire."
-      },
-      {
-        "id": "vit26",
-        "pic": "/vita/vit(26).png",
-        "name": "Nature's Truth — Restore & Unwind Ashwagandha Gummies",
-        "price": "35000",
-        "desc": "Gummies à l'ashwagandha, adaptogène naturel pour réduire le stress, restaurer l'énergie et améliorer la concentration."
-      },
-      {
-        "id": "vit27",
-        "pic": "/vita/vit(27).png",
-        "name": "Vitafusion — Melatonin Max Strength 10mg (Strawberry Flavor)",
-        "price": "35000",
-        "desc": "Gummies à la mélatonine 10mg à la fraise, aident à s'endormir rapidement et à bénéficier d'un sommeil de qualité."
-      },
-      {
-        "id": "vit28",
-        "pic": "/vita/vit(28).png",
-        "name": "Irwin Naturals — Blood Sugar Balance Berberine Body + Fat Burner",
-        "price": "35000",
-        "desc": "Complément à la berbérine, aide à réguler la glycémie et soutient la gestion du poids pour un métabolisme équilibré."
-      },
-      {
-        "id": "vit29",
-        "pic": "/vita/vit(29).png",
-        "name": "21st Century — Niacinamide 500 mg (Prolonged Release, 110 Tablets)",
-        "price": "35000",
-        "desc": "Niacinamide 500mg à libération prolongée, améliore l'éclat de la peau, réduit l'inflammation et soutient la santé nerveuse."
-      },
-      {
-        "id": "vit30",
-        "pic": "/vita/vit(30).png",
-        "name": "Vital Proteins — Collagen Peptides (Unflavored, 10 oz / 284g)",
-        "price": "40000",
-        "desc": "Peptides de collagène purs Vital Proteins, poudre non aromatisée à dissoudre dans les boissons pour une beauté de l'intérieur."
-      },
-      {
-        "id": "vit31",
-        "pic": "/vita/vit(31).png",
-        "name": "Wonder Belly — Antacid Maximum Strength (Watermelon Mint & Fruity Cereal, 60 Tablets)",
-        "price": "40000",
-        "desc": "Antiacide maximum strength en comprimés à croquer, soulage rapidement les brûlures d'estomac avec des saveurs gourmandes."
-      },
-      {
-        "id": "vit32",
-        "pic": "/vita/vit(32).png",
-        "name": "Vicks — ZzzQuil Nighttime Sleep-Aid (Warming Berry, 12 FL OZ)",
-        "price": "25000",
-        "desc": "Aide au sommeil Vicks ZzzQuil à la baie chaude, aide à s'endormir rapidement pour une nuit réparatrice sans somnolence matinale."
-      },
-      {
-        "id": "vit33",
-        "pic": "/vita/vit(33).png",
-        "name": "Vicks — DayQuil Kids + NyQuil Kids Honey Combo Pack",
-        "price": "18000",
-        "desc": "Combo jour et nuit Vicks Kids au miel, soulage les symptômes de rhume et de toux des enfants en toute sécurité."
-      },
-      {
-        "id": "vit34",
-        "pic": "/vita/vit(34).png",
-        "name": "Mucinex — Fast-Max Maximum Strength Day & Night Pack",
-        "price": "13000",
-        "desc": "Pack Mucinex jour/nuit force maximale, combat la congestion sévère, la fièvre et la toux pour une récupération rapide."
-      },
-      {
-        "id": "vit35",
-        "pic": "/vita/vit(35).png",
-        "name": "Vicks VapoCOOL Severe (Winterfrost) + Halls Cherry Flavor Drops Pack",
-        "price": "25000",
-        "desc": "Duo de pastilles Vicks et Halls à la menthe glacée et à la cerise, soulagent rapidement la gorge irritée et la toux."
-      }
+      { "id": "vit1", "pic": "/vita/vit (1).png", "name": "One A Day — Women's Multi (Tablets) / VitaCraves Teen for Her (Gummies) / Women's Multi Gummy", "price": "35000", "desc": "Multivitamines pour femmes en comprimés ou gummies, couvrent les besoins nutritionnels quotidiens pour une santé optimale." },
+      { "id": "vit2", "pic": "/vita/vit (2).png", "name": "Kirkland Signature — Adult Multivitamin Gummies", "price": "35000", "desc": "Multivitamines adultes en gummies Kirkland, formule complète et délicieuse pour combler les carences au quotidien." },
+      { "id": "vit3", "pic": "/vita/vit (3).png", "name": "Nature Made — Vitamin C Gummies (250 mg)", "price": "35000", "desc": "Gummies à la vitamine C 250mg Nature Made, renforcent le système immunitaire et protègent les cellules du stress oxydatif." },
+      { "id": "vit4", "pic": "/vita/vit (4).png", "name": "One A Day — Men's 50+ Multi (Tablets)", "price": "35000", "desc": "Multivitamines spécialement formulées pour les hommes de 50 ans et plus, soutiennent le cœur, les yeux et la prostate." },
+      { "id": "vit5", "pic": "/vita/vit (5).png", "name": "MaryRuth's — 3-in-1 Daily Women's Health (Capsules) & Magnesium Calm Gummies", "price": "35000", "desc": "Duo santé féminine MaryRuth's : capsules 3-en-1 et gummies au magnésium pour équilibrer le corps et l'esprit." },
+      { "id": "vit6", "pic": "/vita/vit (6).png", "name": "Wellness Garden — Turmeric with Ginger (550 mg)", "price": "45000", "desc": "Complément au curcuma et au gingembre, puissants anti-inflammatoires naturels pour soutenir articulations et digestion." },
+      { "id": "vit7", "pic": "/vita/vit (7).png", "name": "Nature's Truth — Ultra Hair, Skin & Nails plus Biotin", "price": "35000", "desc": "Complément beauté à la biotine, renforce les cheveux, améliore l'éclat de la peau et prévient la fragilité des ongles." },
+      { "id": "vit8", "pic": "/vita/vit (8).png", "name": "Nature's Bounty — Fish Oil (1200 mg) & Magnesium (500 mg)", "price": "35000", "desc": "Duo huile de poisson et magnésium, soutiennent le cœur, le cerveau, les muscles et réduisent la fatigue chronique." },
+      { "id": "vit9", "pic": "/vita/vit (9).png", "name": "AbCuts CLA Belly Fat Formula", "price": "35000", "desc": "Complément à l'acide linoléique conjugué (CLA), aide à réduire la graisse abdominale et à maintenir la masse musculaire." },
+      { "id": "vit10", "pic": "/vita/vit (10).png", "name": "Wellness Garden — Turmeric with Ginger (550 mg)", "price": "35000", "desc": "Formule curcuma-gingembre 550mg, soutient l'immunité et réduit l'inflammation pour un bien-être général au quotidien." },
+      { "id": "vit11", "pic": "/vita/vit (11).png", "name": "Qunol Turmeric Curcumin Complex + Ginger (550 mg)", "price": "45000", "desc": "Complexe curcumine ultra-absorbable et gingembre, formule avancée pour une action anti-inflammatoire maximale." },
+      { "id": "vit12", "pic": "/vita/vit(12).png", "name": "Pepto Bismol (Bismuth Subsalicylate)", "price": "18000", "desc": "Médicament antiacide et antidiarrhéique classique, soulage rapidement les troubles digestifs et les maux d'estomac." },
+      { "id": "vit13", "pic": "/vita/vit(13).png", "name": "Kirkland Signature Adult Gummies Vitamin C (250 mg)", "price": "35000", "desc": "Gummies vitamine C adultes Kirkland, goût fruité et pratiques pour renforcer les défenses immunitaires chaque jour." },
+      { "id": "vit14", "pic": "/vita/vit(14).png", "name": "Berkley Jensen Vitamin C with Rose Hips (1000 mg)", "price": "45000", "desc": "Vitamine C haute dose 1000mg avec cynorrhodon, puissant antioxydant pour booster l'immunité et la vitalité." },
+      { "id": "vit15", "pic": "/vita/vit(15).png", "name": "Nature's Bounty Hair, Skin & Nails Gummies", "price": "25000", "desc": "Gummies beauté Nature's Bounty aux vitamines et biotine, nourrissent les cheveux, la peau et les ongles de l'intérieur." },
+      { "id": "vit16", "pic": "/vita/vit(16).png", "name": "Force Factor Kids Super Chews (Superfoods & Immunity)", "price": "25000", "desc": "Compléments pour enfants aux superaliments, renforcent les défenses immunitaires et soutiennent la croissance saine." },
+      { "id": "vit17", "pic": "/vita/vit(17).png", "name": "Force Factor Total Beets Blood Pressure Support", "price": "35000", "desc": "Complément à la betterave, aide à réguler la tension artérielle et améliore la circulation sanguine naturellement." },
+      { "id": "vit18", "pic": "/vita/vit(18).png", "name": "Force Factor Ultimate Magnesium Glycinate & Citrate (330 mg)", "price": "35000", "desc": "Magnésium ultra-assimilable en double forme glycinate et citrate, favorise la détente musculaire et un sommeil réparateur." },
+      { "id": "vit19", "pic": "/vita/vit(19).png", "name": "Force Factor Better Turmeric (Extra-Strength Curcumin)", "price": "35000", "desc": "Curcumine extra-forte Force Factor à haute biodisponibilité, pour une action anti-inflammatoire et antioxydante renforcée." },
+      { "id": "vit20", "pic": "/vita/vit(20).png", "name": "Goli Nutrition Apple Cider Vinegar+ & Extra Strength Sleep", "price": "35000", "desc": "Duo Goli : gummies au vinaigre de cidre pour la digestion et la mélatonine renforcée pour un sommeil profond et naturel." },
+      { "id": "vit21", "pic": "/vita/vit(21).png", "name": "Goli Nutrition — Women's Complete Multi Gummies & Dreamy Sleep Gummies", "price": "35000", "desc": "Duo Goli pour femmes : multivitamines complètes et gummies sommeil rêveur pour équilibrer corps et esprit au quotidien." },
+      { "id": "vit22", "pic": "/vita/vit(22).png", "name": "MaryRuth's — Liquid Nighttime Multimineral (Coconut Dream)", "price": "35000", "desc": "Multiminéral liquide nocturne à la noix de coco, se prend avant le coucher pour une absorption maximale des minéraux." },
+      { "id": "vit23", "pic": "/vita/vit(23).png", "name": "MaryRuth's — Vegan Liquid Iron / Liquid Morning Multivitamin / Liquid Morning Multivitamin + Hair Growth", "price": "35000", "desc": "Gamme liquide MaryRuth's vegan : fer, multivitamines du matin et complexe croissance des cheveux pour une routine complète." },
+      { "id": "vit24", "pic": "/vita/vit(24).png", "name": "NeoCell — Collagen Beauty Builder (Caplets) & Grassfed Collagen Peptides (Powder)", "price": "40000", "desc": "Duo collagène NeoCell en gélules et poudre non aromatisée, soutient la beauté de la peau, des cheveux et des ongles." },
+      { "id": "vit25", "pic": "/vita/vit(25).png", "name": "Qunol — Turmeric 1500mg (95% Curcuminoids)", "price": "35000", "desc": "Curcuma haute dose Qunol avec 95% de curcuminoïdes actifs, formule leader pour soulager l'inflammation articulaire." },
+      { "id": "vit26", "pic": "/vita/vit(26).png", "name": "Nature's Truth — Restore & Unwind Ashwagandha Gummies", "price": "35000", "desc": "Gummies à l'ashwagandha, adaptogène naturel pour réduire le stress, restaurer l'énergie et améliorer la concentration." },
+      { "id": "vit27", "pic": "/vita/vit(27).png", "name": "Vitafusion — Melatonin Max Strength 10mg (Strawberry Flavor)", "price": "35000", "desc": "Gummies à la mélatonine 10mg à la fraise, aident à s'endormir rapidement et à bénéficier d'un sommeil de qualité." },
+      { "id": "vit28", "pic": "/vita/vit(28).png", "name": "Irwin Naturals — Blood Sugar Balance Berberine Body + Fat Burner", "price": "35000", "desc": "Complément à la berbérine, aide à réguler la glycémie et soutient la gestion du poids pour un métabolisme équilibré." },
+      { "id": "vit29", "pic": "/vita/vit(29).png", "name": "21st Century — Niacinamide 500 mg (Prolonged Release, 110 Tablets)", "price": "35000", "desc": "Niacinamide 500mg à libération prolongée, améliore l'éclat de la peau, réduit l'inflammation et soutient la santé nerveuse." },
+      { "id": "vit30", "pic": "/vita/vit(30).png", "name": "Vital Proteins — Collagen Peptides (Unflavored, 10 oz / 284g)", "price": "40000", "desc": "Peptides de collagène purs Vital Proteins, poudre non aromatisée à dissoudre dans les boissons pour une beauté de l'intérieur." },
+      { "id": "vit31", "pic": "/vita/vit(31).png", "name": "Wonder Belly — Antacid Maximum Strength (Watermelon Mint & Fruity Cereal, 60 Tablets)", "price": "40000", "desc": "Antiacide maximum strength en comprimés à croquer, soulage rapidement les brûlures d'estomac avec des saveurs gourmandes." },
+      { "id": "vit32", "pic": "/vita/vit(32).png", "name": "Vicks — ZzzQuil Nighttime Sleep-Aid (Warming Berry, 12 FL OZ)", "price": "25000", "desc": "Aide au sommeil Vicks ZzzQuil à la baie chaude, aide à s'endormir rapidement pour une nuit réparatrice sans somnolence matinale." },
+      { "id": "vit33", "pic": "/vita/vit(33).png", "name": "Vicks — DayQuil Kids + NyQuil Kids Honey Combo Pack", "price": "18000", "desc": "Combo jour et nuit Vicks Kids au miel, soulage les symptômes de rhume et de toux des enfants en toute sécurité." },
+      { "id": "vit34", "pic": "/vita/vit(34).png", "name": "Mucinex — Fast-Max Maximum Strength Day & Night Pack", "price": "13000", "desc": "Pack Mucinex jour/nuit force maximale, combat la congestion sévère, la fièvre et la toux pour une récupération rapide." },
+      { "id": "vit35", "pic": "/vita/vit(35).png", "name": "Vicks VapoCOOL Severe (Winterfrost) + Halls Cherry Flavor Drops Pack", "price": "25000", "desc": "Duo de pastilles Vicks et Halls à la menthe glacée et à la cerise, soulagent rapidement la gorge irritée et la toux." }
     ]
   }
 ]

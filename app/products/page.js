@@ -12,27 +12,27 @@ export default function Products() {
     },
     {
       id: 2,
-      img: "/fondproduct2.png",
-      title: "Savons & Brumes pour le Corps",
-      slug: "soap",
+       img: "/fondproduct1.png",
+      title: "Crèmes & Laits Corporels",
+      slug: "cremes",
     },
     {
       id: 3,
-      img: "/fondproduct3.png",
-      title: "Soins du Visage",
-      slug: "face",
-    },
-    {
-      id: 4,
       img: "/fondproduct4.png",
       title: "Gommages & Huiles Corporelles",
       slug: "gommages-huiles",
     },
     {
+      id: 4,
+       img: "/fondproduct3.png",
+      title: "Soins du Visage",
+      slug: "face",
+    },
+    {
       id: 5,
-      img: "/fondproduct5.png",
-      title: "Soins Capillaires",
-      slug: "cheveux",
+       img: "/fondproduct2.png",
+      title: "Savons & Brumes pour le Corps",
+      slug: "soap",
     },
     {
       id: 6,
@@ -42,15 +42,15 @@ export default function Products() {
     },
     {
       id: 7,
-      img: "/mainfond2.png",
-      title: "Divers",
-      slug: "autres",
+       img: "/fondproduct5.png",
+      title: "Soins Capillaires",
+      slug: "cheveux",
     },
     {
       id: 8,
-     img: "/fondproduct1.png",
-      title: "Crèmes & Laits Corporels",
-      slug: "cremes",
+     img: "/mainfond2.png",
+      title: "Divers",
+      slug: "autres",
     },
   ];
 
