@@ -3,7 +3,7 @@ import styles from "../whatsAppBtn/page.module.css"
 export default function WhatsAppButton({ product }) {
 
   const sendToWhatsApp = () => {
-    const numero = "2250787558755";
+    const numero = "2250708128559";
 
     const message = `
 Identifiant : ${product.id}
