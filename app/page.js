@@ -1,141 +1,146 @@
 import Image from "next/image";
 import Link from "next/link";
-import styles from "./page.module.css";
-import { GiCampCookingPot } from "react-icons/gi";
-import { FaTruckPlane } from "react-icons/fa6";
-import { RiCustomerService2Fill } from "react-icons/ri";
+import { FaWhatsapp } from "react-icons/fa";
+import { FiArrowRight, FiAward, FiGlobe, FiHeart, FiMapPin } from "react-icons/fi";
+import { PiHeartLight, PiLeafLight, PiShieldCheckLight, PiTruckLight } from "react-icons/pi";
+import HeroSlider from "@/components/HeroSlider/heroSlider";
+import BestSellers from "@/components/BestSellers/bestSellers";
+import Testimonials from "@/components/Testimonials/testimonials";
+import { getCategories, getProducts } from "@/lib/products";
+import { siteConfig, whatsappLink } from "@/lib/siteConfig";
+import s from "./page.module.css";
 
+export const metadata = {
+  title: `${siteConfig.name} | Soins de beauté & cosmétiques naturels premium`,
+  alternates: { canonical: "/" },
+};
+
+const featureIcons = { truck: PiTruckLight, shield: PiShieldCheckLight, leaf: PiLeafLight, heart: PiHeartLight };
+const reasonIcons = { leaf: PiLeafLight, globe: FiGlobe, award: FiAward };
 
 export default function Home() {
-  const dataFullProducts = [
-  "Essentiels Corps",
-  "Rituel Hydratation",
-  "Éclat du Visage",
-  "Soin Perfecteur",
-  "Rituel Capillaire",
-  "Nutrition Cheveux",
-  "Intimité & Douceur",
-  "Éclat du Sourire",
-  "Fraîcheur Dentaire",
-  "Vitalité & Énergie",
-  "Compléments Bien-être"
-]
-
-const dataInfoProducts = [
-  {
-    id:1,
-    ico: <GiCampCookingPot /> ,
-     title: "Pureté des Ingrédients Naturels",
-    description: "Des formules douces et puissantes, enrichies en actifs naturels sélectionnés pour révéler l’éclat de votre peau."
-  },
-
-   {
-    id:2,
-    ico:<FaTruckPlane />,
-     title: "Sélection Premium Importée des États-Unis",
-    description: "Des soins de qualité internationale, soigneusement choisis pour leur efficacité et leurs résultats visibles."
-  },
-
-   {
-    id:3,
-    ico:<RiCustomerService2Fill />,
-   title: "Expérience Client d’Exception",
-    description: "Un accompagnement personnalisé et un service réactif pour vous offrir une expérience beauté unique et haut de gamme."
-  }
-]
+  const categories = getCategories();
+  const products = getProducts();
+  const best = siteConfig.bestSellers
+    .map((b) => {
+      const p = products.find((x) => x.id === b.id);
+      return p && { ...p, badge: b.badge, rating: b.rating };
+    })
+    .filter(Boolean);
 
   return (
-      <main className={styles.main}>
-       <section className={styles.section1}>
-         <h1 className={styles.title}>Prenez soin de vous, naturellement</h1>
-<p className={styles.description}>
-Une sélection de produits doux et efficaces pour une peau saine, lumineuse et rayonnante.
-</p>
-<p className={styles.description}>
- faites défiler pour découvrir toute notre gamme.
-</p>
+    <>
+      <HeroSlider slides={siteConfig.hero.slides} script={siteConfig.hero.script} interval={siteConfig.hero.interval} />
 
-<Link href="/products" className={styles.link}>
-  Découvrir la collection
-</Link>
+      <section className={s.features}>
+        <div className={`container ${s.featGrid}`}>
+          {siteConfig.features.map((f) => {
+            const Icon = featureIcons[f.icon];
+            return (
+              <div key={f.title} className={s.feat}>
+                <Icon size={38} />
+                <div><h3>{f.title}</h3><p>{f.text}</p></div>
+              </div>
+            );
+          })}
+        </div>
+      </section>
 
-       </section>
-
-       <section className={styles.section2}>
-        
-        <div className={styles.second_content}>
-         <h2 className={styles.second_title}>Tout ce Dont Votre Peau a Besoin, en Un Seul Lieu</h2>
-         <ul className={styles.list}>
-          {dataFullProducts.map((product, index) => (
-            <li key={index} className={styles.listItem}>
-              {product}
-            </li>
+      <section className="section container">
+        <div className={s.rowHead}>
+          <div>
+            <span className="eyebrow">Nos catégories</span>
+            <h2 className="title">Tout ce dont votre peau a besoin, en un seul lieu</h2>
+          </div>
+          <Link href="/products" className={s.more}>Voir tout <FiArrowRight /></Link>
+        </div>
+        <div className={s.cats}>
+          {categories.map((c) => (
+            <Link key={c.slug} href={`/products?cat=${c.slug}`} className={s.cat}>
+              <div className={s.catImg}>
+                <Image src={siteConfig.categoryInfo[c.slug]?.image || c.cover} alt={c.label}
+                  fill sizes="(max-width:560px) 84px, (max-width:900px) 50vw, 25vw" />
+              </div>
+              <div className={s.catBody}>
+                <div>
+                  <h3>{c.label}</h3>
+                  <p>{siteConfig.categoryInfo[c.slug]?.tagline}</p>
+                </div>
+                <span className={s.go}><FiArrowRight size={14} /></span>
+              </div>
+            </Link>
           ))}
-         </ul>
         </div>
-        <div className={styles.second_content}>
-           <Image
-            src="/mainfond2.png"
-            alt="Image de la section 2"
-            width={500}
-            height={500}
-            className={styles.image}
-          />
+      </section>
+
+      <section className={s.best}>
+        <div className={`container ${s.bestGrid}`}>
+          <div>
+            <span className="eyebrow">Nos meilleures ventes</span>
+            <h2 className="title">Les incontournables</h2>
+            <p className="lead">Découvrez les produits les plus appréciés par notre communauté.</p>
+            <Link href="/products" className="btn btn-primary">Voir toute la sélection <FiArrowRight /></Link>
+          </div>
+          <BestSellers items={best} />
         </div>
-         
-       </section>
+      </section>
 
+      <section className="section container">
+        <div className={s.center}>
+          <span className="eyebrow">Notre engagement</span>
+          <h2 className="title">Pourquoi choisir nos produits ?</h2>
+        </div>
+        <div className={s.whyGrid}>
+          {siteConfig.reasons.map((r) => {
+            const Icon = reasonIcons[r.icon];
+            return (
+              <div key={r.title} className={s.why}>
+                <span><Icon size={24} /></span>
+                <h3>{r.title}</h3>
+                <p>{r.text}</p>
+              </div>
+            );
+          })}
+        </div>
+      </section>
 
-
-
-       <section className={styles.section3}>
-
-        <h2 className={styles.third_title}>Pourquoi Choisir Nos Produits ?</h2>
-        <div className={styles.third_content}>
-           {dataInfoProducts.map((info) => (
-            <div key={info.id} className={styles.third_card}>
-              <div className={styles.card_icon}>{info.ico}</div>
-              <h3 className={styles.card_title}>{info.title}</h3>
-              <p className={styles.card_description}>{info.description}</p>
+      <section className={`container ${s.about}`}>
+        <div className={s.aboutMain}>
+          <div className={s.visual}>
+            <div className={s.visualImg}>
+              <Image src={siteConfig.aboutImage} alt={siteConfig.name} fill sizes="(max-width:620px) 60vw, 25vw" />
             </div>
-           ))}
+            <div className={`${s.quote} script`}>
+              <span>{siteConfig.about.quote}</span>
+              <FiHeart size={16} />
+            </div>
+          </div>
+          <div className={s.aboutText}>
+            <h2>{siteConfig.about.title}</h2>
+            <p>{siteConfig.about.text}</p>
+            <Link href="/about" className="btn btn-primary">En savoir plus <FiArrowRight /></Link>
+          </div>
         </div>
-
-
-       </section>
-
-       <section className={styles.section4}>
-           <div className={styles.third_content}>
-             <h2 className={styles.fourth_title}>
-              Profitez d’offres exclusives
-             </h2>
-           <Image
-            src="/mainfond3.png"
-            alt="Image de la section 2"
-            width={500}
-            height={500}
-            className={styles.fourth_image}
-          />
-          <h2 className={styles.fourth_title}> Découvrez nos nouveautés </h2>
-           <Image
-            src="/mainfond4.png"
-            alt="Image de la section 2"
-            width={500}
-            height={500}
-            className={styles.fourth_image}
-          />
-          <h2 className={styles.fourth_title}>Recevez des conseils beauté personnalisés.</h2>
-           <Image
-            src="/mainfond5.png"
-            alt="Image de la section 2"
-            width={500}
-            height={500}
-            className={styles.fourth_image}
-          />
+        <div className={s.trust}>
+          <h2 className={s.trustTitle}>Ils nous font confiance</h2>
+          <Testimonials items={siteConfig.testimonials} />
         </div>
-       </section>
+      </section>
 
-      
-      </main>
+      <section className="container">
+        <div className={s.cta}>
+          <h2 className="title">Une question ? Parlons-en.</h2>
+          <p>Recevez des conseils beauté personnalisés, directement sur WhatsApp.</p>
+          <div className={s.ctaBtns}>
+            <a href={whatsappLink()} target="_blank" rel="noopener noreferrer" className="btn btn-primary">
+              <FaWhatsapp size={18} /> Nous contacter
+            </a>
+            <a href={siteConfig.mapUrl} target="_blank" rel="noopener noreferrer" className={`btn ${s.ghost}`}>
+              <FiMapPin size={16} /> Trouvez-nous sur la carte
+            </a>
+          </div>
+        </div>
+      </section>
+    </>
   );
 }

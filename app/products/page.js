@@ -1,94 +1,26 @@
-import Image from "next/image";
-import styles from "./page.module.css";
-import Link from "next/link";
+import ProductsGrid from "@/components/ProductsGrid/productsGrid";
+import { getCategories, getProducts } from "@/lib/products";
 
-export default function Products() {
-  const categories = [
-    {
-      id: 1,
-      img: "/fondproduct8.png",
-      title: "Vitamines & Compléments",
-      slug: "vitamines",
-    },
-    {
-      id: 2,
-       img: "/fondproduct1.png",
-      title: "Crèmes & Laits Corporels",
-      slug: "cremes",
-    },
-    {
-      id: 3,
-      img: "/fondproduct4.png",
-      title: "Gommages & Huiles Corporelles",
-      slug: "gommages-huiles",
-    },
-    {
-      id: 4,
-       img: "/fondproduct3.png",
-      title: "Soins du Visage",
-      slug: "face",
-    },
-    {
-      id: 5,
-       img: "/fondproduct2.png",
-      title: "Savons & Brumes pour le Corps",
-      slug: "soap",
-    },
-    {
-      id: 6,
-      img: "/fondproduct6.png",
-      title: "Soins Intimes & Hygiène Dentaire",
-      slug: "soins-intimes-bucco",
-    },
-    {
-      id: 7,
-       img: "/fondproduct5.png",
-      title: "Soins Capillaires",
-      slug: "cheveux",
-    },
-    {
-      id: 8,
-     img: "/mainfond2.png",
-      title: "Divers",
-      slug: "autres",
-    },
-  ];
+export const metadata = {
+  title: "Nos Produits — soins, crèmes, sérums, parfums et vitamines",
+  description: "Parcourez tous nos produits cosmétiques : soins visage, crèmes corps, gommages, savons, soins capillaires, parfums et compléments.",
+  alternates: { canonical: "/products" },
+};
 
+export default async function ProductsPage({ searchParams }) {
+  const { cat, q, focus } = await searchParams;
+  const categories = getCategories();
+  const initial = categories.some((c) => c.slug === cat) ? cat : "all";
+  const query = typeof q === "string" ? q : "";
   return (
-    <main className={styles.main}>
-      <h1 className={styles.title}>
-        Choisissez l'excellence, catégorie par catégorie
-      </h1>
-
-      
-
-      <section className={styles.content}>
-        {categories.map((cat) => (
-          <Link
-            href={`/products/${cat.slug}`}
-            className={styles.box}
-            key={cat.id}
-          >
-            <Image
-              src={cat.img}
-              alt={cat.title}
-              width={500}
-              height={500}
-              className={styles.img}
-            />
-
-            <div className={styles.overlay}>
-              <h3 className={styles.box_title}>
-                {cat.title}
-              </h3>
-
-              <span className={styles.link}>
-                Découvrir →
-              </span>
-            </div>
-          </Link>
-        ))}
-      </section>
-    </main>
+    <div className="container">
+      <header className="page-head">
+        <span className="eyebrow">Boutique</span>
+        <h1 className="title">Nos Produits</h1>
+        <p className="lead">Filtrez par catégorie ou recherchez un produit précis.</p>
+      </header>
+      <ProductsGrid key={`${initial}-${query}`} products={getProducts()} categories={categories}
+        initialCategory={initial} initialQuery={query} autoFocus={focus === "1"} />
+    </div>
   );
 }

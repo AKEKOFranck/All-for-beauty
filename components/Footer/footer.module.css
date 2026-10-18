@@ -1,0 +1,15 @@
+.footer{background:var(--bg);border-top:1px solid var(--line);margin-top:2rem;padding-top:3rem;color:var(--ink)}
+.grid{display:grid;grid-template-columns:1.5fr 1fr 1.2fr;gap:2.5rem;padding-bottom:2.5rem}
+.about{max-width:38ch;margin:1rem 0 0;font-size:.86rem;color:var(--muted)}
+.footer h4{font-family:var(--font-title),serif;color:var(--accent);font-weight:500;font-size:1.1rem;margin:0 0 .9rem}
+.list{list-style:none;margin:0;padding:0;display:grid;gap:.6rem;font-size:.88rem}
+.list a{color:var(--muted);transition:color .2s}
+.list a:hover{color:var(--accent)}
+.map{display:inline-flex;align-items:center;gap:.4rem}
+.socials{display:flex;gap:.7rem;margin-top:1.2rem}
+.socials a{width:42px;height:42px;border-radius:50%;display:grid;place-items:center;border:1px solid var(--accent);color:var(--accent);transition:all .2s}
+.socials a:hover{background:var(--accent);color:#fff;transform:translateY(-2px)}
+.signature{display:flex;align-items:center;justify-content:center;gap:.8rem;padding:1.1rem 1rem;background:var(--pink);color:var(--accent);flex-wrap:wrap;text-align:center}
+.signature span{font-size:1.35rem}
+.bottom{padding:.9rem 1rem;text-align:center;font-size:.78rem;color:var(--muted);background:var(--bg-soft)}
+@media(max-width:760px){.grid{grid-template-columns:1fr}}

@@ -1,88 +1,50 @@
-import styles from "./page.module.css";
+import Image from "next/image";
+import Link from "next/link";
+import { FiHeart, FiShield, FiStar } from "react-icons/fi";
+import { siteConfig } from "@/lib/siteConfig";
+import s from "./page.module.css";
 
-export default function Boutique() {
+export const metadata = {
+  title: "À propos",
+  description: `Découvrez l'univers ${siteConfig.name} : une boutique de cosmétiques et un salon qui sélectionnent des soins de qualité pour votre peau et vos cheveux.`,
+  alternates: { canonical: "/about" },
+};
+
+const values = [
+  { icon: FiStar, title: "Qualité", text: "Chaque produit est choisi avec exigence pour ses résultats." },
+  { icon: FiHeart, title: "Proximité", text: "Un accompagnement chaleureux, du conseil jusqu’à la livraison." },
+  { icon: FiShield, title: "Transparence", text: "Des informations claires pour choisir en toute confiance." },
+];
+
+export default function About() {
   return (
-    <main className={styles.page}>
-      <section className={styles.hero}>
-        <div className={styles.overlay}>
-          <h1 className={styles.title}>All For Beauty</h1>
-          <p className={styles.subtitle}>
-            Votre future référence en produits cosmétiques et de soins en Côte d’Ivoire.
-            Nous mettons à votre disposition des produits de qualité sélectionnés
-            avec soin pour répondre à vos besoins de beauté et de bien-être.
-          </p>
+    <div className="container">
+      <header className="page-head">
+        <span className="eyebrow">À propos</span>
+        <h1 className="title">{siteConfig.about.title}</h1>
+        <p className="lead">{siteConfig.about.quote}.</p>
+      </header>
+
+      <section className={s.story}>
+        <div className={s.img}>
+          <Image src={siteConfig.aboutImage} alt={siteConfig.name} fill sizes="(max-width:820px) 100vw, 45vw" />
+        </div>
+        <div>
+          <h2 className="title">Notre démarche</h2>
+          <p className="lead">{siteConfig.about.text}</p>
+          <Link href="/products" className="btn btn-primary">Découvrir la boutique</Link>
         </div>
       </section>
 
-      <section className={styles.about}>
-        <div className={styles.container}>
-          <h2 className={styles.sectionTitle}>À propos de All For Beauty</h2>
-
-          <p className={styles.text}>
-            All For Beauty est une entreprise ivoirienne spécialisée dans la vente
-            de produits cosmétiques, de soins du visage, du corps, des cheveux,
-            ainsi que de produits d’hygiène et de bien-être.
-          </p>
-
-          <p className={styles.text}>
-            Notre boutique sera prochainement installée en Côte d’Ivoire avec pour
-            mission de proposer à sa clientèle des produits authentiques,
-            efficaces et adaptés à différents types de peau et de besoins.
-          </p>
-
-          <p className={styles.text}>
-            Une partie de nos produits est directement importée des États-Unis afin
-            de garantir leur qualité, leur originalité et leur conformité aux
-            standards internationaux. Nous accordons une importance particulière à
-            la satisfaction de nos clients en offrant des produits fiables et un
-            service de proximité.
-          </p>
-        </div>
-      </section>
-
-      <section className={styles.process}>
-        <div className={styles.container}>
-          <h2 className={styles.sectionTitle}>Comment commander ?</h2>
-
-          <div className={styles.steps}>
-            <div className={styles.card}>
-              <span className={styles.number}>1</span>
-              <h3>Choisissez vos produits</h3>
-              <p>
-                Parcourez notre catalogue et sélectionnez les articles qui vous
-                intéressent.
-              </p>
-            </div>
-
-            <div className={styles.card}>
-              <span className={styles.number}>2</span>
-              <h3>Cliquez sur Commander</h3>
-              <p>
-                Lorsque vous cliquez sur le bouton « Commander », vous êtes
-                automatiquement redirigé vers le WhatsApp officiel de la boutique.
-              </p>
-            </div>
-
-            <div className={styles.card}>
-              <span className={styles.number}>3</span>
-              <h3>Validation de la commande</h3>
-              <p>
-                Quelques informations vous seront demandées afin de confirmer
-                votre commande et de préparer votre livraison.
-              </p>
-            </div>
-
-            <div className={styles.card}>
-              <span className={styles.number}>4</span>
-              <h3>Livraison rapide</h3>
-              <p>
-                Après validation, votre commande est traitée puis livrée dans les
-                meilleurs délais selon votre localisation.
-              </p>
-            </div>
+      <section className={s.values}>
+        {values.map(({ icon: Icon, title, text }) => (
+          <div key={title} className={s.card}>
+            <span><Icon size={22} /></span>
+            <h3>{title}</h3>
+            <p>{text}</p>
           </div>
-        </div>
+        ))}
       </section>
-    </main>
+    </div>
   );
 }

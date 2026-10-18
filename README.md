@@ -1,6 +1,6 @@
 # File Tree: cosmétique
 
-**Generated:** 6/17/2026, 4:16:32 PM
+**Generated:** 10/18/2026, 8:27:03 AM
 **Root Path:** `c:\Users\fm005\OneDrive\Desktop\cosmétique`
 
 ```
@@ -9,31 +9,67 @@
     │   ├── 📁 about
     │   │   ├── 📄 page.js
     │   │   └── 🎨 page.module.css
-    │   ├── 📁 components
-    │   │   ├── 📁 Footer
-    │   │   │   ├── 📄 footer.js
-    │   │   │   └── 🎨 footer.module.css
-    │   │   ├── 📁 Navigation
-    │   │   │   ├── 📄 navigation.js
-    │   │   │   └── 🎨 navigation.module.css
-    │   │   └── 📁 whatsAppBtn
-    │   │       ├── 📄 page.js
-    │   │       └── 🎨 page.module.css
+    │   ├── 📁 contact
+    │   │   └── 📄 page.js
+    │   ├── 📁 panier
+    │   │   └── 📄 page.js
     │   ├── 📁 products
     │   │   ├── 📁 [slug]
     │   │   │   ├── 📄 page.js
     │   │   │   └── 🎨 page.module.css
-    │   │   ├── 📄 page.js
-    │   │   └── 🎨 page.module.css
+    │   │   └── 📄 page.js
     │   ├── 🎨 globals.css
     │   ├── 📄 layout.js
     │   ├── 📄 not-found.jsx
     │   ├── 🎨 not-found.module.css
     │   ├── 📄 page.js
-    │   └── 🎨 page.module.css
+    │   ├── 🎨 page.module.css
+    │   ├── 📄 robots.js
+    │   └── 📄 sitemap.js
+    ├── 📁 components
+    │   ├── 📁 AddToCart
+    │   │   ├── 📄 addToCart.js
+    │   │   └── 🎨 addToCart.module.css
+    │   ├── 📁 BestSellers
+    │   │   ├── 📄 bestSellers.js
+    │   │   └── 🎨 bestSellers.module.css
+    │   ├── 📁 Brand
+    │   │   ├── 📄 brand.js
+    │   │   └── 🎨 brand.module.css
+    │   ├── 📁 Cart
+    │   │   ├── 📄 CartProvider.js
+    │   │   ├── 📄 cartView.js
+    │   │   └── 🎨 cartView.module.css
+    │   ├── 📁 Footer
+    │   │   ├── 📄 footer.js
+    │   │   └── 🎨 footer.module.css
+    │   ├── 📁 HeroSlider
+    │   │   ├── 📄 heroSlider.js
+    │   │   └── 🎨 heroSlider.module.css
+    │   ├── 📁 Navigation
+    │   │   ├── 📄 navigation.js
+    │   │   └── 🎨 navigation.module.css
+    │   ├── 📁 ProductCard
+    │   │   ├── 📄 productCard.js
+    │   │   └── 🎨 productCard.module.css
+    │   ├── 📁 ProductGallery
+    │   │   ├── 📄 productGallery.js
+    │   │   └── 🎨 productGallery.module.css
+    │   ├── 📁 ProductsGrid
+    │   │   ├── 📄 productsGrid.js
+    │   │   └── 🎨 productsGrid.module.css
+    │   ├── 📁 Testimonials
+    │   │   ├── 📄 testimonials.js
+    │   │   └── 🎨 testimonials.module.css
+    │   └── 📁 WhatsAppBtn
+    │       ├── 📄 whatsAppBtn.js
+    │       └── 🎨 whatsAppBtn.module.css
     ├── 📁 lib
-    │   └── 📁 data
-    │       └── ⚙️ produits.json
+    │   ├── 📁 data
+    │   │   └── ⚙️ produits.json
+    │   ├── 📄 format.js
+    │   ├── 📄 products.js
+    │   └── 📄 siteConfig.js
     ├── 📁 public
     │   ├── 📁 care
     │   │   ├── 🖼️ care (1).png
@@ -225,16 +261,14 @@
     │   ├── 🖼️ logoCos.svg
     │   ├── 🖼️ mainfond.png
     │   ├── 🖼️ mainfond2.png
-    │   ├── 🖼️ mainfond3.png
-    │   ├── 🖼️ mainfond4.png
-    │   └── 🖼️ mainfond5.png
+    │   └── 🖼️ mainfond6.png
+    ├── 📁 scripts
+    │   └── 📄 check-css.mjs
     ├── ⚙️ .gitignore
     ├── 📝 AGENTS.md
     ├── 📝 CLAUDE.md
     ├── 📝 README.md
     ├── 📄 eslint.config.mjs
-    ├── 📄 fix_image_paths.ipynb
-    ├── 📄 fix_image_paths_notebook.ipynb
     ├── ⚙️ jsconfig.json
     ├── 📄 next.config.mjs
     ├── ⚙️ package-lock.json
